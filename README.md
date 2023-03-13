@@ -11,7 +11,7 @@ Hay algunos programas que son compiladores y editores, se conocen como IDE (Ento
 
 Cualquiera que se escoja se debe descargar e instalar.
 
-En el caso de usar **- CodeBlocks**, al crear un nuevo proyecto debemos ir a *File -> New -> Proyect -> Empty project*.
+En nuestro caso vamos a usar **- CodeBlocks**, para crear un nuevo proyecto debemos ir a *File -> New -> Proyect -> Empty project*.
 
 
 
@@ -28,12 +28,13 @@ void main(){
 }
 ```
 
-Para ejecutar el programa, debemos previamente haberlo compilado. También podemos usar el botón de **Build and run**
+Para ejecutar el programa usamor el botón de **Build and run**
 
 *stdio.h* es la cabecera de la biblioteca "standard input-output header" que contien funciones declaradas como por ejemplo *printf*
+
 *`\n`* Es un operador de escape, el compilador lo detecta como un salto de línea.
 
-- **Librería** Conjunto de herramientas que viene con código predefinido, lo que nos permite facilitar el trabajo.
+- **Biblioteca** llamada por vicio del lenguaje, **librería** Conjunto de herramientas que viene con código predefinido.
 
 ##Variables y tipos de datos
 
