@@ -24,9 +24,8 @@ Luego de eso, debemos incluir las librerías, que son un conjunto de código que
 Para incluir una librería usamos la sentencia
 ```cpp
 #include <stdio.h>
-int main(){
+void main(){
     printf("Hola Mundo \n");
-    return 0;
 }
 ```
 *stdio.h* **`.h`** porque es una cabecera.
