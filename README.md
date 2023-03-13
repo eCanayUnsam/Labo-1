@@ -22,7 +22,7 @@ Primero, debemos crear un nuevo proyecto, y luego crear un archivo llamado **mai
 Luego de eso, debemos incluir las librerías, que son un conjunto de código que viene predefinido y que nos facilita el trabajo.
 
 Para incluir una librería usamos la sentencia
-```cpp
+```c
 #include <stdio.h>
 void main(){
     printf("Hola Mundo \n");
