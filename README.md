@@ -11,14 +11,13 @@ Hay algunos programas que son compiladores y editores, se conocen como IDE (Ento
 
 Cualquiera que se escoja se debe descargar e instalar.
 
-En el caso de usar **- CodeBlocks**, al crear un nuevo proyecto debemos ir a *Menu -> Nuevo -> Proyecto* y allí escogemos el tipo de aplicación que queramos escoger.
+En el caso de usar **- CodeBlocks**, al crear un nuevo proyecto debemos ir a *File -> New -> Proyect -> Empty project*.
 
-Para ejecutar el programa, debemos previamente haberlo compilado. También podemos usar el botón de **compilar y ejecutar**
 
 
 ## Hola Mundo
 
-Primero, debemos crear un nuevo proyecto, y luego crear un archivo llamado **main.cpp**, o el nombre que se desee.
+Primero, debemos crear un nuevo proyecto, y luego crear un archivo llamado **main.c**, o el nombre que se desee.
 Luego de eso, debemos incluir las librerías, que son un conjunto de código que viene predefinido y que nos facilita el trabajo.
 
 Para incluir una librería usamos la sentencia
@@ -28,7 +27,10 @@ void main(){
     printf("Hola Mundo \n");
 }
 ```
-*stdio.h* **`.h`** porque es una cabecera.
+
+Para ejecutar el programa, debemos previamente haberlo compilado. También podemos usar el botón de **Build and run**
+
+*stdio.h* es la cabecera de la biblioteca "standard input-output header" que contien funciones declaradas como por ejemplo *printf*
 *`\n`* Es un operador de escape, el compilador lo detecta como un salto de línea.
 
 - **Librería** Conjunto de herramientas que viene con código predefinido, lo que nos permite facilitar el trabajo.
