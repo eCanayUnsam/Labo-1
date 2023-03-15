@@ -103,9 +103,9 @@ Si queremos que haya salto de línea, podemos usar el operador de escape `\n`, y
 
 ### Variable de tipo `char`
 
-Si por ejemplo colocamos una palabra en una variable de tipo **char**, el compilador, sólo tomará el último caracter. En este caso usamos *comillas simples*
+Si por ejemplo colocamos una palabra en una variable de tipo **char**, el compilador, sólo tomará un caracter. En este caso usamos *comillas simples*
 ```cpp
-char letra = 'Hola mundo';
+char letra = 'H';
 ```
 
 Para mostrar varios caracteres usamos comillas dobles y colocamos un __`*`__, al final de la palabra reservada `char` .
