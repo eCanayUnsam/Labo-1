@@ -123,7 +123,42 @@ Son variables que no pueden ser modificadas durante la ejecución del programa. 
 // Es una constante, su valor no se puede cambiar
 const int numero = 11;
 ```
+## Printf y Scanf
 
+```cpp
+#include <stdio.h>
+void main() 
+	{
+		int a=20
+		float b = 5.23478;
+		
+		printf("El valor de a es %d\n",a);
+		printf("El valor de b es %f\n",b);
+	}
+```
+%c	Un único caracter
+%d	Un entero con signo, en base decimal
+%u	Un entero sin signo, en base decimal
+%o	Un entero en base octal
+%x	Un entero en base hexadecimal
+%e	Un número real en coma flotante, con exponente
+%f	Un número real en coma flotante, sin exponente
+%s	Una cadena de caracteres
+%p	Un puntero o dirección de memoria
+
+#include <stdio.h>
+
+```cpp
+void main()
+{
+	char a;
+	int b;
+	printf("Introduce un caracter: ");
+	scanf("%s",&a);
+	printf("Introduce un numero: ");
+	scanf("%d",&b);
+}
+```
 
 ## Operadores Aritméticos
 
@@ -172,11 +207,11 @@ Permiten comparar dos variables para ejecutar una acción determinada. La condic
 
 ```cpp
 if (numero1 < numero2){
-    cout << "Es menor" << endl;
+    printf("Es menor\n");
 } else if (numero1==numero2){
-    cout<<"Son iguales"<< endl;
+    printf("Son iguales"\n);
 } else {
-    cout << "Es mayor" << endl;
+    printf("Es mayor" \n);
 }
 ```
 
@@ -211,7 +246,7 @@ Ejecuta las sentencia siempre que la condición sea verdadera. La expresión se 
 ```cpp 
 int i = 0;
 while (i <= 5) {
-    cout << "Valor de i: " << i << endl;
+    printf("Valor de i: %d\n",i);
     // Aumentamos el valor de la variable
     i++;
 }
@@ -230,7 +265,7 @@ array[3] = 'D';
 array[4] = 'E';
 // Ciclo for
 for (unsigned int i = 0; i < sizeof(array) ; i++){
-    cout << array[i] << endl;
+    printf("%c\n",array[i]);
 }
 ```
 
@@ -246,10 +281,10 @@ switch (c){
     case 'i':
     case 'o':
     case 'u':	
-        cout << "El una vocal." << endl;
+        printf("El una vocal.\n"0;
         break;
 default:
-    cout << "Es una consonante" << endl;
+    printf("Es una consonante.\n");
     break;
 }
 ```
