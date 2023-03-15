@@ -44,18 +44,6 @@ El operador `#include`, permite incluir librerías. Hay dos formas de incluir la
 
 - **Biblioteca** llamada por vicio del lenguaje, **librería** Conjunto de herramientas que viene con código predefinido.
 
-### Operador `define`
-
-`#define` crea una macro, que es la asociación de un identificador o identificador parametrizado con una cadena de token. Una vez definida la macro,el compilador puede sustituir la cadena de token para cada aparición del identificador del archivo de código fuente.
-
-```cpp
-#define suma(a,b) a+b
-...
-int valor = suma(2,5);
-```
-En este ejemplo, el compilador evalúa el identificador y al utilizarse, sustituye la cadena con la aparición del identificador.
-
-
 *`\n`* Es un operador de escape, el compilador lo detecta como un salto de línea.
 
 
