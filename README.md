@@ -14,7 +14,6 @@ Cualquiera que se escoja se debe descargar e instalar.
 En nuestro caso vamos a usar **- CodeBlocks**, para crear un nuevo proyecto debemos ir a *File -> New -> Proyect -> Empty project*.
 
 
-
 ## Hola Mundo
 
 Primero, debemos crear un nuevo proyecto, y luego crear un archivo llamado **main.c**, o el nombre que se desee.
@@ -30,11 +29,35 @@ void main(){
 
 Para ejecutar el programa usamor el botón de **Build and run**
 
+## Operadores del Preprocesaor
+
+### Operador `include`
+
+Es un operador del preprocesador, el preprocesador es una parte del compilador que verifica qué librerías se están importando en el código fuente. (`#`).
+
+El operador `#include`, permite incluir librerías. Hay dos formas de incluir las librerías
+
+- `#include <iostream>` Busca los archivos en los recursos del compilador
+- `#include "iostream"` Busca los archivos en la propia carpeta
+
 *stdio.h* es la cabecera de la biblioteca "standard input-output header" que contien funciones declaradas como por ejemplo *printf*
+
+- **Biblioteca** llamada por vicio del lenguaje, **librería** Conjunto de herramientas que viene con código predefinido.
+
+### Operador `define`
+
+`#define` crea una macro, que es la asociación de un identificador o identificador parametrizado con una cadena de token. Una vez definida la macro,el compilador puede sustituir la cadena de token para cada aparición del identificador del archivo de código fuente.
+
+```cpp
+#define suma(a,b) a+b
+...
+int valor = suma(2,5);
+```
+En este ejemplo, el compilador evalúa el identificador y al utilizarse, sustituye la cadena con la aparición del identificador.
+
 
 *`\n`* Es un operador de escape, el compilador lo detecta como un salto de línea.
 
-- **Biblioteca** llamada por vicio del lenguaje, **librería** Conjunto de herramientas que viene con código predefinido.
 
 ##Variables y tipos de datos
 
@@ -299,29 +322,6 @@ Son útiles para ordenar el código y explicar el código. Cuando se compila el 
 */
 // Comentario de una sola línea
 ```
-
-## Operadores del Preprocesaor
-
-### Operador `include`
-
-Es un operador del preprocesador, el preprocesador es una parte del compilador que verifica qué librerías se están importando en el código fuente. (`#`).
-
-El operador `#include`, permite incluir librerías. Hay dos formas de incluir las librerías
-
-- `#include <iostream>` Busca los archivos en los recursos del compilador
-- `#include "iostream"` Busca los archivos en la propia carpeta
-
-
-### Operador `define`
-
-`#define` crea una macro, que es la asociación de un identificador o identificador parametrizado con una cadena de token. Una vez definida la macro,el compilador puede sustituir la cadena de token para cada aparición del identificador del archivo de código fuente.
-
-```cpp
-#define suma(a,b) a+b
-...
-int valor = suma(2,5);
-```
-En este ejemplo, el compilador evalúa el identificador y al utilizarse, sustituye la cadena con la aparición del identificador.
 
 ## Funciones
 Una función en C es un bloque de código que realiza una tarea específica y se puede llamar desde cualquier lugar del programa. Las funciones en C deben ser declaradas antes de su uso y se les asigna un tipo de retorno
