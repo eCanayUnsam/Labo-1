@@ -59,7 +59,7 @@ En este ejemplo, el compilador evalúa el identificador y al utilizarse, sustitu
 *`\n`* Es un operador de escape, el compilador lo detecta como un salto de línea.
 
 
-##Variables y tipos de datos
+## Variables y tipos de datos
 
 En C++, una variable es un espacio de memoria reservado para almacenar un valor. Las variables deben ser declaradas antes de su uso y se les asigna un tipo de datos. Los tipos de datos básicos en C son:
 
