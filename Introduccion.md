@@ -117,3 +117,9 @@ de un bloque a otro.
 
 **Conector:** Indica la convergencia de dos o más flujos. En la práctica determina el
 comienzo o el fin de una estructura.
+
+## Codificación de la Información
+
+
+![Codificacion Informacion](https://github.com/eCanayUnsam/Labo-1/blob/main/Imagenes/Codificacion_Informacion.jpg)
+
