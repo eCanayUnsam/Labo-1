@@ -141,6 +141,11 @@ comienzo o el fin de una estructura.
 
 **Ejemplos**
 
+| Name     | Character |
+| ---      | ---       |
+| Backtick | `         |
+| Pipe     | \|        |
+
 | Entrada/Salida de Caracter |
 | ---      | ---       |
 | Entrada  | Representación Interna del caracter        |Salida|
