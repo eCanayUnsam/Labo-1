@@ -83,15 +83,6 @@ int num = 31;
 int num{23};
 ```
 
-Para evitar colocar prefijos a las funciones, es necesario especificar los espacios de nombre que vamos a utilizar, por ejemplo:
-```cpp
-using namespace std;
-// Si no usaramos los espacios de nombre, nos tocaría usar 
-std::cout << "Hola mundo \n Hola universo " << endl;
-```
-
-Si queremos que haya salto de línea, podemos usar el operador de escape `\n`, y así colocamos texto en una nueva línea.
-
 ## Variables `bool` y `char`
 
 - **char** Esta tipo de dato almacena caracteres
