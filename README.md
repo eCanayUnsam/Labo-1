@@ -27,6 +27,14 @@ int main(){
 }
 ```
 
+```cpp
+#include <iostream>
+int main(){
+    std::cout << "Hola Mundo" << std::endl;
+    return 0;
+}
+```
+
 Para ejecutar el programa usamor el botón de **Build and run**
 
 ## Operadores del Preprocesaor
