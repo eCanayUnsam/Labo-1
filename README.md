@@ -37,6 +37,17 @@ int main(){
 
 Para ejecutar el programa usamor el botón de **Build and run**
 
+## Comentarios
+
+Son útiles para ordenar el código y explicar el código. Cuando se compila el programa, el compilador ignora estas líneas y nos las lee.
+
+```cpp 
+/**
+* Comentario multilínea
+*/
+// Comentario de una sola línea
+```
+
 ## Operadores del Preprocesaor
 
 ### Operador `include`
@@ -51,8 +62,6 @@ El operador `#include`, permite incluir librerías. Hay dos formas de incluir la
 *stdio.h* es la cabecera de la biblioteca "standard input-output header" que contien funciones declaradas como por ejemplo *printf*
 
 - **Biblioteca** llamada por vicio del lenguaje, **librería** Conjunto de herramientas que viene con código predefinido.
-
-*`\n`* Es un operador de escape, el compilador lo detecta como un salto de línea.
 
 
 ## Variables y tipos de datos
@@ -156,9 +165,11 @@ void main()
 %s	Una cadena de caracteres
 %p	Un puntero o dirección de memoria
 
-#include <stdio.h>
+*`\n`* Es un operador de escape, el compilador lo detecta como un salto de línea.
+
 
 ```cpp
+#include <stdio.h>
 void main()
 {
 	char a;
@@ -297,17 +308,6 @@ default:
     printf("Es una consonante.\n");
     break;
 }
-```
-
-## Comentarios
-
-Son útiles para ordenar el código y explicar el código. Cuando se compila el programa, el compilador ignora estas líneas y nos las lee.
-
-```cpp 
-/**
-* Comentario multilínea
-*/
-// Comentario de una sola línea
 ```
 
 ## Funciones
