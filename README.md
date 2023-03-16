@@ -142,6 +142,22 @@ Son variables que no pueden ser modificadas durante la ejecución del programa. 
 // Es una constante, su valor no se puede cambiar
 const int numero = 11;
 ```
+## Arreglos 
+
+Son variables que tienen varias posiciones en memoria, lo que permiten almacenar más de un valor en una sóla referencia.
+
+Para declarar un arreglo, lo hacemos igual que en una variable, colocando al final corchetes angulares indicando el tamaño del arreglo. 
+
+```cpp
+// Arreglo de tipo entero con 5 posiciones
+int variable[5];
+```
+
+Para asignar valores al arreglo, debemos acceder a la posición y en ella colocar el valor que deseemos (Debe ser del mismo tipo de dato).
+```cpp
+// Asignamos un valor al arreglo, en la posición 0
+variable[0] = 12;
+``` 
 ## Printf y Scanf
 
 ```cpp
