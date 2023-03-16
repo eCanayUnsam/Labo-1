@@ -45,6 +45,13 @@ número finito de pasos.
 
 ## Pseudocódigo
 
+La **formalización de las acciones** se realiza a través de la estructura del algoritmo en pseudocódigo. El
+pseudocódigo se considera una herramienta para el diseño que permite obtener una solución mediante
+aproximaciones sucesivas. Se denomina notación de pseudocódigo a aquella que permite describir la
+solución de un problema en forma de algoritmo dirigido al computador utilizando palabras y frases del
+lenguaje natural sujetas a determinadas reglas.
+
+
 {Suma el entero 5 y el entero 7 }
 principal
 ```cpp
@@ -54,3 +61,14 @@ int b <-7 //en la variable b se almacena el valor de 7
 int c <- a + b //en c se almacena la suma de a con b
 termina 
 ```
+## Diagramas De Flujo
+
+También conocidos como flowchart, en estos se utilizan símbolos estándar, en el que cada paso para la
+elaboración del programa se representa con el símbolo y orden adecuados, unidos o conectados por
+flechas, también llamadas líneas de flujo, esto por que indican el sentido en el que se mueve el proceso. En
+resumen el diagrama de flujo es un medio de presentación visual y gráfica del flujo de datos a través de un
+algoritmo
+![Bloques accion](https://github.com/eCanayUnsam/Labo-1/blob/main/Imagenes/Bloques_accion.jpg)
+![Bloques decision](https://github.com/eCanayUnsam/Labo-1/blob/main/Imagenes/Bloques_decision.jpg)
+![Bloques terminales](https://github.com/eCanayUnsam/Labo-1/blob/main/Imagenes/Bloques_terminales.jpg)
+![Flujos conectores](https://github.com/eCanayUnsam/Labo-1/blob/main/Imagenes/Flujos_conectores.jpg)
