@@ -16,14 +16,14 @@ En nuestro caso vamos a usar **- CodeBlocks**, para crear un nuevo proyecto debe
 
 ## Hola Mundo
 
-Primero, debemos crear un nuevo proyecto, y luego crear un archivo llamado **main.c**, o el nombre que se desee.
+Primero, debemos crear un nuevo proyecto, y luego crear un archivo llamado **main.cpp**, o el nombre que se desee.
 Luego de eso, debemos incluir las librerías, que son un conjunto de código que viene predefinido y que nos facilita el trabajo.
 
-Para incluir una librería usamos la sentencia
-```c
+```cpp
 #include <stdio.h>
-void main(){
+int main(){
     printf("Hola Mundo \n");
+    return 0;
 }
 ```
 
@@ -292,7 +292,7 @@ switch (c){
     case 'i':
     case 'o':
     case 'u':	
-        printf("El una vocal.\n"0;
+        printf("El una vocal.\n");
         break;
 default:
     printf("Es una consonante.\n");
@@ -326,7 +326,7 @@ int sumar(int a, int b){
 }
 // Funcion que no retorna nada
 void miFuncion(){
-	cout << "Yo no retorno nada" << endl;
+	printf("Yo no retorno nada");
 }
 ```
 
@@ -337,7 +337,7 @@ Hay dos tipos de funciones
 También podemos definir parámetros por defecto a la función, de la siguiente manera.
 ```cpp
 void funcion(int a = 10){
-    cout << a+3 << endl;
+    printf("%d",a+3);
 }
 ```
 
