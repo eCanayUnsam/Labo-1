@@ -1,5 +1,5 @@
 #include <stdio.h>
-void main()
+int main()
 	{
 	char a='h';
 	float b = 0.5;
