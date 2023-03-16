@@ -123,3 +123,5 @@ comienzo o el fin de una estructura.
 
 ![Codificacion Informacion](https://github.com/eCanayUnsam/Labo-1/blob/main/Imagenes/Codificacion_Informacion.jpg)
 
+[GitHub Pages](https://github.com/eCanayUnsam/Labo-1/blob/main/Imagenes/tascii.pdf)
+
