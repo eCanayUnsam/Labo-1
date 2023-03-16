@@ -1,13 +1,13 @@
 #include <stdio.h>
 void main()
 	{
-		int a=20;
-		float b = 5.23478;
+		int a=15;
+		float b = 0.5;
 
-        int suma = a + b;
+        int suma = b * a;
 
 		printf("El valor de a es %d\n",a);
 		printf("El valor de b es %f\n",b);
-		printf("El la suma de %d + %f es %f\n",a,b,suma);
+		printf("El producto de %d * %f es %d\n",a,b,suma);
 
 	}
