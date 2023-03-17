@@ -47,3 +47,15 @@ float m = 2.5, n = 5.4, r, s;
 22. a = m / 2.0;  | 23. a = 3.0 + 4.0 -1; |24. r = a + 1; | 25. r = a + 1.0;
 26. a++;  | 27. r++;  | 28. b--;  | 29. a+= 5;  |30. s*= 5;
 
+## Ejercicio 4. 
+
+Indicar qué valor se almacena en cada variable de la izquierda de cada asignación, siendo:
+
+int a, b, c, d = 0;
+int e = 1; //0 (cero) corresponde a falso
+int x = 2, y = 3;
+
+1. a = 5 > 3; | 2. b = ( ( 4 < 5 ) && ( 2 > 2 ) );  | 3. a = ! e;
+4. b = ( ( x % 2 == 0 ) || ( x – y < 10 ) );  | 5. c = ( d && e );
+6. c = ( d || e );  | 7. c = ! ( d && e );  |8. c = ( ! d ) && ( ! e );
+9. c = ( a && ( ! a ) );  |10. c = ( ( ( x <= ( y * 3.2 ) ) && ( y % 2 != 0 ) ) || ( 1 ) );
