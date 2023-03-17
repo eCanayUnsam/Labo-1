@@ -42,25 +42,6 @@ double myVar = 3.11;
 > Los tipos de datos de punto flotante, siempre serán **signed** (Con signo), lo que significa que tienen la capacidad de almacenar tanto valores positivos como negativos.
 
 
-## Cadenas de texto 
-
-Una cadena de texto (*string*), es una secuencia ordenada de caracteres, encerrados dento de **comillas dobles**.
-
-Son parte de la librería estándar. Necesita incluit la librería **<string>** para utilizar el tipo de dato *string*
-
-```c++
-#include <string>
-using namespace std;
-
-int main(){
-	string cadena = "Hola, soy una cadena de texto";
-	return 0;
-}
-```
-
-> La librería <string> es incluida en la librería *<iostring>*, así que de ser incluida, no necesario llamarla por aparte
-
-
 ## char 
 
 Una variable **char** almacena un entero de 1 byte. No se interpreta como un entero, sino como un caracter ASCII.
@@ -84,6 +65,8 @@ bool love = false;
 ```
 
 > Si un valor booleano es asignado a un entero, **true (verdadero)** es 1, y** false (false)** es 0
+	
+![Tipos datos](https://github.com/eCanayUnsam/Labo-1/blob/main/Imagenes/Tipos_datos.jpg)
 	
 ## Arreglos 
 
