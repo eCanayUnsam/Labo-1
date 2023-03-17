@@ -31,4 +31,19 @@ char c;
 4. scanf (“%d”, &b);  | 5. scanf (“%f”, &b);  | 6. scanf (“%c”, &b);
 7. scanf (“%d”, &c);  | 8. scanf (“%f”, &c);  | 9. scanf (“%f”, &c);
 
+## Ejercicio 3. 
+
+Indicar qué es lo que se almacena en cada una de las variables indicadas a continuación, si se realizan las
+operaciones que se indican, sabiendo que se han definido las variables usadas de la siguiente forma:
+
+int a = 3, b = 2, c = 1, d, e;
+float m = 2.5, n = 5.4, r, s;
+
+1. d = m; | 2. d = n; | 3. e = 3.7; | 4. d = a; | 5. d = a + b;
+6. d = a * b; | 7. d = a / b; | 8. d = b / 4; | 9. d = a % b;
+10. d = a % 2;  | 11. e = b / c;  | 12. e = c / b;  |13. r = a + b;
+14. r = a / b;  | 15. r = a / 2;  | 16. r = a / 2.0;  | 17. s = m + n;
+18. s = 3 + 4 - 1;  | 19. s = 3.0 + 4.0 -1; | 20. a = m;  | 21. a = m / 2;
+22. a = m / 2.0;  | 23. a = 3.0 + 4.0 -1; |24. r = a + 1; | 25. r = a + 1.0;
+26. a++;  | 27. r++;  | 28. b--;  | 29. a+= 5;  |30. s*= 5;
 
