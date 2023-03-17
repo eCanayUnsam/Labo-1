@@ -141,16 +141,17 @@ comienzo o el fin de una estructura.
 
 **Ejemplos**
 
-| Name     | Character |
-| ---      | ---       |
-| Backtick | `         |
-| Pipe     | \|        |
-
 Entrada/Salida de Caracter 
 
 | Entrada  | Representación Interna del caracter        |Salida|
 | ------------- | :-------------: | -------------| 
 | Pulso tecla a   | 65 |Se ve en pantalla: A |
+
+Entrada/Salida de Números (mediante caracteres)
+
+| Entrada  | Representación Interna del caracter        |Salida|
+| ------------- | :-------------: | -------------| 
+| Pulso tecla 6 y tecla 5| 65 |Se ve en pantalla: 65|
 
 [Tabla ASCII](https://github.com/eCanayUnsam/Labo-1/blob/main/Imagenes/tascii.pdf)
 
