@@ -134,6 +134,8 @@ Son tambien números de punto flotante que tienen más precisión ó espacio que
 double num = 12.3479835;
 ```
 
+![Tipos datos](https://github.com/eCanayUnsam/Labo-1/blob/main/Imagenes/Tipos_datos.jpg)
+
 ## Constantes
 
 Son variables que no pueden ser modificadas durante la ejecución del programa. Lo valores que le asignemos no se pueden cambiar.
