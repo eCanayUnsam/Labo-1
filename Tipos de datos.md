@@ -67,6 +67,15 @@ bool love = false;
 > Si un valor booleano es asignado a un entero, **true (verdadero)** es 1, y** false (false)** es 0
 	
 ![Tipos datos](https://github.com/eCanayUnsam/Labo-1/blob/main/Imagenes/Tipos_datos.jpg)
+
+## Constantes
+
+Son variables que no pueden ser modificadas durante la ejecución del programa. Lo valores que le asignemos no se pueden cambiar.
+
+```cpp
+// Es una constante, su valor no se puede cambiar
+const int numero = 11;
+```
 	
 ## Arreglos 
 
