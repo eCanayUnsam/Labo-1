@@ -146,10 +146,11 @@ comienzo o el fin de una estructura.
 | Backtick | `         |
 | Pipe     | \|        |
 
-| Entrada/Salida de Caracter |
-| ---      | ---       |
+Entrada/Salida de Caracter 
+
 | Entrada  | Representación Interna del caracter        |Salida|
-| Pulso tecla a   | 65|Se ve en pantalla: A|
+| ------------- | :-------------: | -------------| 
+| Pulso tecla a   | 65 |Se ve en pantalla: A |
 
 [Tabla ASCII](https://github.com/eCanayUnsam/Labo-1/blob/main/Imagenes/tascii.pdf)
 
