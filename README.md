@@ -183,7 +183,7 @@ void main()
 %s	Una cadena de caracteres
 %p	Un puntero o dirección de memoria
 
-*`\n`* Es un operador de escape, el compilador lo detecta como un salto de línea.
+![Formatos](https://github.com/eCanayUnsam/Labo-1/blob/main/Imagenes/Formatos.jpg)
 
 
 ```cpp
