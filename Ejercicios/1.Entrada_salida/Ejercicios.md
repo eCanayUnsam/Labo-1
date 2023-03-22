@@ -401,7 +401,13 @@ Desarrolla un algoritmo que permita leer un valor que represente una temperatura
 Desarrolla un algoritmo que permita calcular el área de un triángulo en función de las longitudes de sus lados (A, B, C) previamente leídos desde el teclado.
 
 $Area=\sqrt(s(s-A)(s-B)(s-C))$
+
 (s) "semiperímetro"
+
 $s=(A+B+C)/2$
 
 ## Ejercicio 28
+
+Desarrolla un algoritmo que permita determinar el área y volumen de un cilindro cuyo radio (r) y altura (h) se leen desde teclado.
+
+
