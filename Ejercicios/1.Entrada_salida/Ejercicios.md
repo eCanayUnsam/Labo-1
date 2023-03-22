@@ -1,3 +1,4 @@
+# Variables, operadores y tipo de datos. Especificadores de formato. Entrada y salida estándar
 
 ## Ejercicio 1.
 Indicar cuál es la salida por pantalla para cada sentencia printf. siendo:
@@ -157,6 +158,9 @@ e) (float)c+d
 - [ ] float
 - [ ] double
 
+# Operador sizeof()
+
+
 ## Ejercicio 6
 
 Qué muestra el siguiente programa:
@@ -174,6 +178,8 @@ printf("El largo de long double es %d\n", sizeof(ld));
 getchar();
 return 0; }
 ```
+# Operadores de asignación compacta
+
 ## Ejercicio 7
 
 Suponiendo los siguientes valores iniciales para las variables:
@@ -184,19 +190,194 @@ a) x += 10;
 - [ ] 12 
 - [ ] 10 
 - [ ] 11
+
 b) s *= b;
 - [ ] 9 
 - [ ] 13 
 - [ ] 30
+
 c) r /= 0;
 - [ ] infinito 
 - [ ] 1 
 - [ ] error
+
 d) y += x + 10;
 - [ ] 8 
 - [ ] 12 
 - [ ] 18
+
 e) z -= a*b;
 - [ ] -36 
 - [ ] -18 
 - [ ] 36
+
+## Ejercicio 8
+
+Cuál es la expresión equivalente para las siguientes operaciones, usando operadoresmixtos:
+
+a) x = 10 + x - y;
+- [ ] x += 10-y
+- [ ] x -= y+10
+- [ ] x += 10+y
+
+b) r = 100*r;
+- [ ] r *= 100*r
+- [ ] r *= 100
+- [ ] r += 100
+
+c) y = y/(10+x);
+- [ ] y /= 10*x
+- [ ] y /= 10 + y/x
+- [ ] y /= 10+x
+
+d) z = 3 * x + 6;
+- [ ] z += 6
+- [ ] z *= 3
+- [ ] no es posible
+
+
+## Ejercicio 9
+
+Siendo "y" una variable int y "x" una variable float, indica si son correctas las sentencias:
+
+x = .25 + y
+y = 0.25 + x
+y = 0,25 + x
+
+## Ejercicio 10
+
+Evalúa cada una de las siguientes expresiones y luego comprueba el resultado en el laboratorio.
+
+- 8 * 6 / 3 * 4
+- (8 * 6) / 3 *4
+- 8 * 6 / (3 * 4)
+- (8 * 6 / 3 *4)
+- (8 * 6) / (3 * 4)
+- 1 + 4 * 5 + 8 / 4 + 4
+- 1 + 4 * 5 - 8 / 4 + 4
+
+## Ejercicio 11
+
+Supone que las variables a, b y c tienen asignados los valores 49, 5 y 3 respectivamente. Encuentra
+
+- a % b * c + 1
+- a % (b * c) + 1
+- 24 / c * 4
+- (int) (a / b) % 2
+- 48 / (c*2) * 4
+
+## Ejercicio 12 
+
+Desarrolla un algoritmo que permita leer por teclado 2 valores y emitir por pantalla: la suma de los dos, la resta, producto, división, promedio y el doble producto del primero menos la mitad del segundo. 
+
+## Ejercicio 13
+
+Encuentra el error en cada uno de los siguientes programas e indica de qué tipo es.
+
+```cpp
+#include <stdio.h>
+int main(){
+integer x;
+real y;
+scanf(“%D”, y);
+printf("%f",x);
+return 0;
+}
+```
+```cpp
+#include <stdio.h>
+int main(){
+int n,total;
+float promedio;
+n=0;
+promedio=total/n;
+printf("El promedio es: %f\n",promedio); return 0;
+}
+```
+## Ejercicio 14
+
+Desarrolla un algoritmo que permita, dados ciertos centímetros como entrada de tipo flotante, emitir por pantalla su equivalencia en pies (enteros) y en pulgadas (flotante, con 1 decimal).
+
+## Ejercicio 15
+
+Construye un programa que pregunte los años que tienes y emita como respuesta el número de días (sólo en años).
+
+## Ejercicio 16
+
+Construye un programa que dados el costo de 1 kg de determinado producto y la cantidad comprada, emita el valor del total a pagar.
+
+## Ejercicio 17
+
+Construye un programa que permita ingresar los valores de 2 de los ángulos interiores de un triángulo, y se emita por pantalla el valor del restante.
+
+## Ejercicio 18
+
+Construye un programa que permita ingresar las medidas de los lados de un rectángulo; el mismo debe emitir por pantalla su superficie y superímetro.
+
+## Ejercicio 19
+
+Construye un programa que permita ingresar la superficie de un cuadrado (en m2), el mismo debe emitir por pantalla su perímetro.
+
+# Uso de la librería math.h
+
+## Ejercicio 20
+
+Este programa utiliza la librería math.h y sus funciones incorporadas. Ejecuta, prueba y extrae conclusiones:
+
+```cpp
+#include <stdio.h>
+#include <math.h>
+int main(){
+printf( "sqrt(%.1f) = %.1f\n", 900.0, sqrt( 900.0 ) );
+printf( "sqrt(%.1f) = %.1f\n", 9.0, sqrt( 9.0 ) );
+printf( "exp(%.1f) = %f\n", 1.0, exp( 1.0 ) );
+printf( "exp(%.1f) = %f\n", 2.0, exp( 2.0 ) );
+printf( "log(%f) = %.1f\n", 2.718282, log( 2.718282 ) );
+printf( "log(%f) = %.1f\n", 7.389056, log( 7.389056 ) );
+printf( "log10(%.1f) = %.1f\n", 1.0, log10( 1.0 ) );
+printf( "log10(%.1f) = %.1f\n", 10.0, log10( 10.0 ) );
+printf( "log10(%.1f) = %.1f\n", 100.0, log10( 100.0 ) );
+printf( "fabs(%.1f) = %.1f\n", 13.5, fabs( 13.5 ) );
+printf( "fabs(%.1f) = %.1f\n", 0.0, fabs( 0.0 ) );
+printf( "fabs(%.1f) = %.1f\n", -13.5, fabs( -13.5 ) );
+printf( "ceil(%.1f) = %.1f\n", 9.2, ceil( 9.2 ) );
+printf( "ceil(%.1f) = %.1f\n", -9.8, ceil( -9.8 ) );
+printf( "floor(%.1f) = %.1f\n", 9.2, floor( 9.2 ) );
+printf( "floor(%.1f) = %.1f\n", -9.8, floor( -9.8 ) );
+printf( "pow(%.1f, %.1f) = %.1f\n", 2.0, 7.0, pow( 2.0,7.0 ) );
+printf( "pow(%.1f, %.1f) = %.1f\n", 9.0, 0.5, pow( 9.0,0.5 ) );
+printf( "fmod(%.3f/%.3f) = %.3f\n", 13.675, 2.333, fmod(
+13.675, 2.333 ) );
+printf( "sin(%.1f) = %.1f\n", 0.0, sin( 0.0 ) );
+printf( "cos(%.1f) = %.1f\n", 0.0, cos( 0.0 ) );
+printf( "tan(%.1f) = %.1f\n", 0.0, tan( 0.0 ) ); system ("pause");
+return 0; }
+/* fin de main */
+```
+
+## Ejercicio 21
+
+Transcribe el siguiente programa y extrae conclusiones:
+
+```cpp
+#include <stdio.h>
+#include <stdlib.h>
+#define CUAD(x) (x*x) /* Definición de macros */
+int main(){
+float a;
+printf("\nEscriba un número: ");
+scanf("%f",&a);
+printf("\nSu cuadrado es: %.2f\n",CUAD(a));
+getchar();
+return 0;}
+```
+# Ejercicios integradores
+
+## Ejercicio 22
+
+Construye un programa que permita ingresar 2 tiempos, expresados en horas, minutos y segundos, el mismo debe emitir por pantalla la suma de ambos(también en horas, minutos y segundos).
+
+## Ejercicio 23
+
+Desarrolla un algoritmo que le permita leer un valor radio (R), calcular el área (A) de un círculo y emitir valor.
+$A = π * R^2$
