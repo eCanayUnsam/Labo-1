@@ -123,7 +123,48 @@ int a = 10; float b = 19.3; double d = 64.8; char c = 64;
 Indica el tipo resultante para las expresiones siguientes:
 
 a) a+b
-- [X] char
+- [ ] char
 - [ ] int
 - [ ] float
 - [ ] double
+
+b) c+d
+- [ ] char
+- [ ] int
+- [ ] float
+- [ ] double
+
+c) (int)d+a
+- [ ] char
+- [ ] int
+- [ ] float
+- [ ] double
+
+d) d+b
+- [ ] char
+- [ ] int
+- [ ] float
+- [ ] double
+
+e) (float)c+d
+- [ ] char
+- [ ] int
+- [ ] float
+- [ ] double
+
+## Ejercicio 6
+Qué muestra el siguiente programa:
+'''cpp
+int main() {
+ char c; short s; int i; long l; float f; double d; long double ld;
+printf("\nLARGOS DE TIPOS ESCALARES PREDEFINIDOS\n");
+printf("El largo de char es %d\n", sizeof(c));
+printf("El largo de short es %d\n", sizeof(s));
+printf("El largo de int es %d\n", sizeof(i));
+printf("El largo de long es %d\n", sizeof(l));
+printf("El largo de float es %d\n", sizeof(f));
+printf("El largo de double es %d\n", sizeof(d));
+printf("El largo de long double es %d\n", sizeof(ld));
+getchar();
+return 0; }
+'''
