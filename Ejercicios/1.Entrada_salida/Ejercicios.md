@@ -123,7 +123,7 @@ int a = 10; float b = 19.3; double d = 64.8; char c = 64;
 Indica el tipo resultante para las expresiones siguientes:
 
 a) a+b
-- [ ] char
+- [X] char
 - [ ] int
 - [ ] float
 - [ ] double
