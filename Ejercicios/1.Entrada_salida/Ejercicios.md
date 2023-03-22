@@ -381,3 +381,27 @@ Construye un programa que permita ingresar 2 tiempos, expresados en horas, minut
 
 Desarrolla un algoritmo que le permita leer un valor radio (R), calcular el área (A) de un círculo y emitir valor.
 $A = π * R^2$
+
+## Ejercicio 24
+
+Determina la hipotenusa de un triángulo rectángulo conocidas las longitudes de sus dos catetos. Desarrolla los correspondientes algoritmos.
+
+$H=\sqrt((Cat1)^2 +(Cat2)^2 )$
+
+## Ejercicio 25
+
+Ingresa una cantidad entera de segundos y conviértela en horas, minutos y segundo utilizando los operadores de cociente y resto enteros.
+
+## Ejercicio 26
+
+Desarrolla un algoritmo que permita leer un valor que represente una temperatura expresada en grados Celcius y convierta dicho valor en un valor expresado en grados Fahrenheit.
+
+## Ejercicio 27
+
+Desarrolla un algoritmo que permita calcular el área de un triángulo en función de las longitudes de sus lados (A, B, C) previamente leídos desde el teclado.
+
+$Area=\sqrt(s(s-A)(s-B)(s-C))$
+(s) "semiperímetro"
+$s=(A+B+C)/2$
+
+## Ejercicio 28
