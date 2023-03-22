@@ -154,7 +154,7 @@ e) (float)c+d
 
 ## Ejercicio 6
 Qué muestra el siguiente programa:
-'''cpp
+```cpp
 int main() {
  char c; short s; int i; long l; float f; double d; long double ld;
 printf("\nLARGOS DE TIPOS ESCALARES PREDEFINIDOS\n");
@@ -167,4 +167,4 @@ printf("El largo de double es %d\n", sizeof(d));
 printf("El largo de long double es %d\n", sizeof(ld));
 getchar();
 return 0; }
-'''
+```
