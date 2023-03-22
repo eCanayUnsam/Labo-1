@@ -1,12 +1,13 @@
 
 ## Ejercicio 1.
 Indicar cuál es la salida por pantalla para cada sentencia printf. siendo:
-
+```cpp
 int a = 5;
 float b = 13.546;
-char c = ’A’;
-char d = ’a’;
+char c = 'A';
+char d = 'a';
 int e = 5>1;
+```
 
 - printf(“a vale%d”, a);
 - printf(“avale%o”,a);
@@ -42,11 +43,11 @@ int e = 5>1;
 ## Ejercicio 2. 
 Indicar qué queda almacenado en la variable con la que se ingresan datos en cada caso, si se han
 definido las variables de la siguiente forma:
-
+```cpp
 int a;
 float b;
 char c;
-
+```
 - scanf (“%d”, &a);
 - scanf (“%f”, &a);
 - scanf (“%c”, &a);
@@ -61,9 +62,10 @@ char c;
 
 Indicar qué es lo que se almacena en cada una de las variables indicadas a continuación, si se realizan las
 operaciones que se indican, sabiendo que se han definido las variables usadas de la siguiente forma:
-
+```cpp
 int a = 3, b = 2, c = 1, d, e;
 float m = 2.5, n = 5.4, r, s;
+```
 
 - d = m;
 - d = n;
@@ -100,10 +102,11 @@ float m = 2.5, n = 5.4, r, s;
 ## Ejercicio 4. 
 
 Indicar qué valor se almacena en cada variable de la izquierda de cada asignación, siendo:
-
+```cpp
 int a, b, c, d = 0;
 int e = 1; //0 (cero) corresponde a falso
 int x = 2, y = 3;
+```
 
 - a = 5 > 3;
 - b = ( ( 4 < 5 ) && ( 2 > 2 ) );
@@ -119,7 +122,9 @@ int x = 2, y = 3;
 ## Ejercicio 5. 
 
 Supongamos que tenemos estas variables:
+```cpp
 int a = 10; float b = 19.3; double d = 64.8; char c = 64;
+```
 Indica el tipo resultante para las expresiones siguientes:
 
 a) a+b
@@ -153,6 +158,7 @@ e) (float)c+d
 - [ ] double
 
 ## Ejercicio 6
+
 Qué muestra el siguiente programa:
 ```cpp
 int main() {
@@ -168,3 +174,29 @@ printf("El largo de long double es %d\n", sizeof(ld));
 getchar();
 return 0; }
 ```
+## Ejercicio 7
+
+Suponiendo los siguientes valores iniciales para las variables:
+```cpp
+x = 2; y = 6; z = 9; r = 100; s = 10; a = 15; b = 3;
+```
+a) x += 10;
+- [ ] 12 
+- [ ] 10 
+- [ ] 11
+b) s *= b;
+- [ ] 9 
+- [ ] 13 
+- [ ] 30
+c) r /= 0;
+- [ ] infinito 
+- [ ] 1 
+- [ ] error
+d) y += x + 10;
+- [ ] 8 
+- [ ] 12 
+- [ ] 18
+e) z -= a*b;
+- [ ] -36 
+- [ ] -18 
+- [ ] 36
