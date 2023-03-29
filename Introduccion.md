@@ -1,3 +1,5 @@
+hols chicos
+
 # Resolución De Problemas Y Algoritmos
 
 1. **Análisis del problema:** primer paso para encontrar la solución a un problema es el análisis del mismo.
