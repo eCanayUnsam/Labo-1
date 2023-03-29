@@ -43,24 +43,6 @@ número finito de pasos.
 22. Aparece en el display el número 20
 23. Apagar la calculadora (Off).
 
-## Pseudocódigo
-
-La **formalización de las acciones** se realiza a través de la estructura del algoritmo en pseudocódigo. El
-pseudocódigo se considera una herramienta para el diseño que permite obtener una solución mediante
-aproximaciones sucesivas. Se denomina notación de pseudocódigo a aquella que permite describir la
-solución de un problema en forma de algoritmo dirigido al computador utilizando palabras y frases del
-lenguaje natural sujetas a determinadas reglas.
-
-
-{Suma el entero 5 y el entero 7 }
-principal
-```cpp
-comienza
-int a <- 5 //en la variable a se almacena el valor de 5
-int b <-7 //en la variable b se almacena el valor de 7
-int c <- a + b //en c se almacena la suma de a con b
-termina 
-```
 ## Diagramas De Flujo
 
 También conocidos como flowchart, en estos se utilizan símbolos estándar, en el que cada paso para la
@@ -118,34 +100,24 @@ de un bloque a otro.
 **Conector:** Indica la convergencia de dos o más flujos. En la práctica determina el
 comienzo o el fin de una estructura.
 
-# El modelo de compilación de C.
+## Pseudocódigo
 
-![Codificacion Informacion](https://github.com/eCanayUnsam/Labo-1/blob/main/Imagenes/Compilador.jpg)
+La **formalización de las acciones** se realiza a través de la estructura del algoritmo en pseudocódigo. El
+pseudocódigo se considera una herramienta para el diseño que permite obtener una solución mediante
+aproximaciones sucesivas. Se denomina notación de pseudocódigo a aquella que permite describir la
+solución de un problema en forma de algoritmo dirigido al computador utilizando palabras y frases del
+lenguaje natural sujetas a determinadas reglas.
 
-**El preproceador**
 
-El preprocesador acepta el código fuente como entrada y es responsable de:
-- quitar los comentarios
-- interpretar las directivas del preprocesador las cuales inician con #.
-
-  - #include -- incluye el contenido del archivo nombrado. Estos son usualmente
-llamados archivos de cabecera (header).
-    - #include <math.h> -- Archivo de la biblioteca estándar de matemáticas.
-    - #include <stdio.h> -- Archivo de la biblioteca estándar de Entrada/Salida.
-  - #define -- define un nombre simbólico o constante. Sustitución de macros.
-    - #define TAM_MAX_ARREGLO 100
-
-**Compilador de C**
-
-El compilador de C traduce el código fuente en código deensamblador.
-
-**Ensamblador**
-
-El ensamblador crea el código fuente o los archivos objeto. 
-
-**Enlazador** 
-
-Si algún archivo fuente hace referencia a funciones de una biblioteca o de funciones que están definidas en otros archivos fuentes, el enlazador combina estas funciones (con main()) para crear un archivo ejecutable. Las referencias a variables externas en esta etapa son resueltas.
+{Suma el entero 5 y el entero 7 }
+principal
+```cpp
+comienza
+int a <- 5 //en la variable a se almacena el valor de 5
+int b <-7 //en la variable b se almacena el valor de 7
+int c <- a + b //en c se almacena la suma de a con b
+termina 
+```
 
 # Codificación de la Información
 
@@ -183,4 +155,34 @@ Entrada/Salida de Números (mediante caracteres)
 | Pulso tecla 6 y tecla 5| 65 |Se ve en pantalla: 65|
 
 [Tabla ASCII](https://github.com/eCanayUnsam/Labo-1/blob/main/Imagenes/tascii.pdf)
+
+# El modelo de compilación de C.
+
+![Codificacion Informacion](https://github.com/eCanayUnsam/Labo-1/blob/main/Imagenes/Compilador.jpg)
+
+**El preproceador**
+
+El preprocesador acepta el código fuente como entrada y es responsable de:
+- quitar los comentarios
+- interpretar las directivas del preprocesador las cuales inician con #.
+
+  - #include -- incluye el contenido del archivo nombrado. Estos son usualmente
+llamados archivos de cabecera (header).
+    - #include <math.h> -- Archivo de la biblioteca estándar de matemáticas.
+    - #include <stdio.h> -- Archivo de la biblioteca estándar de Entrada/Salida.
+  - #define -- define un nombre simbólico o constante. Sustitución de macros.
+    - #define TAM_MAX_ARREGLO 100
+
+**Compilador de C**
+
+El compilador de C traduce el código fuente en código deensamblador.
+
+**Ensamblador**
+
+El ensamblador crea el código fuente o los archivos objeto. 
+
+**Enlazador** 
+
+Si algún archivo fuente hace referencia a funciones de una biblioteca o de funciones que están definidas en otros archivos fuentes, el enlazador combina estas funciones (con main()) para crear un archivo ejecutable. Las referencias a variables externas en esta etapa son resueltas.
+
 
