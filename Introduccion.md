@@ -18,7 +18,7 @@ número finito de pasos.
 
 ## Ejemplos Intuitivos De Algoritmos
 
-**Problema:** calcular el factorial de un número utilizando la calculadora estándar de Windows.
+**Problema:** calcular el factorial de 5 utilizando la calculadora estándar de Windows.
 1. Encender la calculadora (on).
 2. Pulsar el número 5.
 3. Pulsar la tecla *.
