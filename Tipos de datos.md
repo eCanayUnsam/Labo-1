@@ -51,10 +51,6 @@ El carácter es colocado dentro de comillas simples ('a', 'x')
 char caracter = 'A';
 ```
 
-> En C++, las comillas simples indican un **carácter**; las comillas dobles definen una cadena de texto. Mientras que 'a' es un carácter individual, "a" es una cadena de texto.
-
-
-
 ## booleanos
 
 Las variables booleanas (**bool**) sólo tienen dos valores posibles:
@@ -95,6 +91,8 @@ Para asignar valores al arreglo, debemos acceder a la posición y en ella coloca
 // Asignamos un valor al arreglo, en la posición 0
 variable[0] = 12;
 ``` 
+
+> En C++, las comillas simples indican un **carácter**; las comillas dobles definen una cadena de texto. Mientras que 'a' es un carácter individual, "a" es una cadena de texto.
 
 
 ## Nombrar variables
