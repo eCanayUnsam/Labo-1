@@ -118,10 +118,39 @@ de un bloque a otro.
 **Conector:** Indica la convergencia de dos o más flujos. En la práctica determina el
 comienzo o el fin de una estructura.
 
+# El modelo de compilación de C.
+
+![Codificacion Informacion](https://github.com/eCanayUnsam/Labo-1/blob/main/Imagenes/Compilador.jpg)
+
+**El preproceador**
+
+El preprocesador acepta el código fuente como entrada y es responsable de:
+- quitar los comentarios
+- interpretar las directivas del preprocesador las cuales inician con #.
+
+  - #include -- incluye el contenido del archivo nombrado. Estos son usualmente
+llamados archivos de cabecera (header).
+    - #include <math.h> -- Archivo de la biblioteca estándar de matemáticas.
+    - #include <stdio.h> -- Archivo de la biblioteca estándar de Entrada/Salida.
+  - #define -- define un nombre simbólico o constante. Sustitución de macros.
+    - #define TAM_MAX_ARREGLO 100
+
+**Compilador de C**
+
+El compilador de C traduce el código fuente en código deensamblador.
+
+**Ensamblador**
+
+El ensamblador crea el código fuente o los archivos objeto. 
+
+**Enlazador** 
+
+Si algún archivo fuente hace referencia a funciones de una biblioteca o de funciones que están definidas en otros archivos fuentes, el enlazador combina estas funciones (con main()) para crear un archivo ejecutable. Las referencias a variables externas en esta etapa son resueltas.
+
 # Codificación de la Información
 
-
 ![Codificacion Informacion](https://github.com/eCanayUnsam/Labo-1/blob/main/Imagenes/Codificacion_Informacion.jpg)
+
 
 ## Entrada Y Salida De Información - Códigos de entrada / salida
 
