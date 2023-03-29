@@ -4,13 +4,12 @@ El sistema operativo asigna memoria y selecciona lo que será almacenado en la m
 
 El tipo de dato define el uso apropiado de un identificador, qué tipo d dato puede ser almacenado, y qué tipos de operaciones puedes ser realizadas.
 
-> En C++, las comillas simples indican un **carácter**; las comillas dobles definen una cadena de texto. Mientras que 'a' es un carácter individual, "a" es una cadena de texto.
 
 ## Enteros 
 
 Almacena números no fraccionados, los cuales pueden ser positivos o negativos.
 
-> El tamañp del tipo entero varía de acuerdo a la arquitectura del sistema en el cual el programa es ejecutado, aunque 4 Bytes es el tamaño mínimo en la mayoría de los sistemas modernos.
+> El tamaño del tipo entero varía de acuerdo a la arquitectura del sistema en el cual el programa es ejecutado, aunque 4 Bytes es el tamaño mínimo en la mayoría de los sistemas modernos.
 
 Se usa la palabra **int** para definir un entero
 ```c++
@@ -52,6 +51,9 @@ El carácter es colocado dentro de comillas simples ('a', 'x')
 char caracter = 'A';
 ```
 
+> En C++, las comillas simples indican un **carácter**; las comillas dobles definen una cadena de texto. Mientras que 'a' es un carácter individual, "a" es una cadena de texto.
+
+
 
 ## booleanos
 
@@ -77,7 +79,7 @@ Son variables que no pueden ser modificadas durante la ejecución del programa. 
 const int numero = 11;
 ```
 	
-## Arreglos 
+## Cadenas 
 
 Son variables que tienen varias posiciones en memoria, lo que permiten almacenar más de un valor en una sóla referencia.
 
