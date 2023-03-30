@@ -231,7 +231,19 @@ operacion = 12;
 // Operador de asignación
 operacion *= 3;
 ``` 
+
+## Operadores lógicos
+
+- *and* `&&`
+	Si ambas condiciones se cumplen, retorna true
+- *or* `||`
+	Si alguna de las dos condiciones se cumple, retorna true.
+- *Negación* `!`
+	Niega una condición. Si es true, lo vuelve false y viciversa.
+
+
 ##Estructuras de control de flujo
+
 Las estructuras de control de flujo se utilizan para controlar el flujo de ejecución de un programa. En C, existen tres estructuras de control de flujo principales:
 
 **if-else**: se utiliza para ejecutar una sentencia si una condición es verdadera y otra sentencia si la condición es falsa.
@@ -239,6 +251,8 @@ Las estructuras de control de flujo se utilizan para controlar el flujo de ejecu
 **while**: se utiliza para repetir una sentencia mientras una condición es verdadera.
 
 **for**: se utiliza para repetir una sentencia un número determinado de veces.
+
+
 
 ## Sentencias `if` (Condicionales)
 
@@ -264,15 +278,6 @@ if (numero1 < numero2){
 - *Menor o igual que* `<=`
 
 Estos operadores son usamos en los condicionales y ciclos, donde comparamos dos valores para realizar una determinada acción.
-
-## Operadores lógicos
-
-- *and* `&&`
-	Si ambas condiciones se cumplen, retorna true
-- *or* `||`
-	Si alguna de las dos condiciones se cumple, retorna true.
-- *Negación* `!`
-	Niega una condición. Si es true, lo vuelve false y viciversa.
 
 ## Ciclos o Bucles
 
