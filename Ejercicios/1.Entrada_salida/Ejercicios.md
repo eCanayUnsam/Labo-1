@@ -10,36 +10,36 @@ char d = 'a';
 int e = 5>1;
 ```
 
-- printf(“a vale%d”, a);
-- printf(“avale%o”,a);
-- printf(“avale%x”,a);
--  printf(“a vale%f”, a);
-- printf(“a vale%c”, a);
-- printf(“bvale%d”,b);
-- printf (“b vale%5.2d”,b);
--  printf(“bvale%f”, b);
--  printf (“b vale %.1f”,b;
-- printf(“bvale%.2f”,b);
-- printf(“bvale%6.4f”,b)
-- printf(“bvale%6.1f”,b);
--  printf(“bvale%c”, b);
-- printf(“bvale%o”,b);
-- printf(“bvale%x”,b);
-- printf(“cvale%d”, c);
--  printf(“cvale%f”,c);
--  printf(“cvale%c”,c);
--  printf(“cvale%o”, c);
--  printf(“cvale%x”, c);
--  printf (“d vale %d”, d);
--  printf(“dvale%f”, d);
--  printf(“dvale%c”, d);
--  printf(“dvale%o”,d);
--  printf(“dvale%x”, d);
--  printf(“evale%d”,e);
--  printf(“evale%f”,e);
-- printf(“evale%c”, e);
--  printf(“evale%o”,e);
-- printf(“evale%x”, e);
+- printf("a vale%d", a);
+- printf("avale%o",a);
+- printf("avale%x",a);
+-  printf("a vale%f", a);
+- printf("a vale%c", a);
+- printf("bvale%d",b);
+- printf ("b vale%5.2d",b);
+-  printf("bvale%f", b);
+-  printf ("b vale %.1f",b;
+- printf("bvale%.2f",b);
+- printf("bvale%6.4f",b)
+- printf("bvale%6.1f",b);
+-  printf("bvale%c", b);
+- printf("bvale%o",b);
+- printf("bvale%x",b);
+- printf("cvale%d", c);
+-  printf("cvale%f",c);
+-  printf("cvale%c",c);
+-  printf("cvale%o", c);
+-  printf("cvale%x", c);
+-  printf ("d vale %d", d);
+-  printf("dvale%f", d);
+-  printf("dvale%c", d);
+-  printf("dvale%o",d);
+-  printf("dvale%x", d);
+-  printf("evale%d",e);
+-  printf("evale%f",e);
+- printf("evale%c", e);
+-  printf("evale%o",e);
+- printf("evale%x", e);
 
 ## Ejercicio 2. 
 Indicar qué queda almacenado en la variable con la que se ingresan datos en cada caso, si se han
@@ -49,15 +49,15 @@ int a;
 float b;
 char c;
 ```
-- scanf (“%d”, &a);
-- scanf (“%f”, &a);
-- scanf (“%c”, &a);
-- scanf (“%d”, &b);
-- scanf (“%f”, &b);
-- scanf (“%c”, &b);
-- scanf (“%d”, &c);
-- scanf (“%f”, &c);
-- scanf (“%f”, &c);
+- scanf ("%d", &a);
+- scanf ("%f", &a);
+- scanf ("%c", &a);
+- scanf ("%d", &b);
+- scanf ("%f", &b);
+- scanf ("%c", &b);
+- scanf ("%d", &c);
+- scanf ("%f", &c);
+- scanf ("%f", &c);
 
 ## Ejercicio 3. 
 
@@ -279,7 +279,7 @@ Encuentra el error en cada uno de los siguientes programas e indica de qué tipo
 int main(){
 integer x;
 real y;
-scanf(“%D”, y);
+scanf("%D", y);
 printf("%f",x);
 return 0;
 }
