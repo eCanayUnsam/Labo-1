@@ -242,7 +242,7 @@ operacion *= 3;
 	Niega una condición. Si es true, lo vuelve false y viciversa.
 
 
-##Estructuras de control de flujo
+## Estructuras de control de flujo
 
 Las estructuras de control de flujo se utilizan para controlar el flujo de ejecución de un programa. En C, existen tres estructuras de control de flujo principales:
 
