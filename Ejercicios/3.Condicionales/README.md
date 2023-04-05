@@ -173,4 +173,5 @@ Una frutería ofrece las manzanas con descuento según la siguiente tabla:
 |2.01 – 5 |10%
 |5.01 - 10 |15%|
 |10.01 en adelante |20%|
+
  Determina cuánto pagara una persona que compre X manzanas a Y precio en esa frutería. 
