@@ -69,13 +69,15 @@ printf ("Es mayor de edad\n");
 ```
 ## Ejercicio 12.
 Evaluar las siguientes expresiones. Siendo:
+
 x = 10;
 y = 20;
 z = 30;
-a) (x < 10) && (y > 15)
 
-  [] true
-  [] false
+a) (x < 10) && (y > 15)
+- [] true
+- [] false
+  
 b) (x <= z) || (z <= y)
 
 true
