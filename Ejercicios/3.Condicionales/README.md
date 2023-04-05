@@ -167,8 +167,9 @@ cada valor en una variable. En el caso del ejemplo se guardaran los valores en l
 y C. luego se procederá a realizar las diferentes comparaciones.
 ## Ejercicio 26.
 Una frutería ofrece las manzanas con descuento según la siguiente tabla:
-|NUM. DE KILOS COMPRADOS |% DESCUENTO
-|0 – 2 |0%
+|NUM. DE KILOS COMPRADOS |% DESCUENTO|
+|--------|-------------|
+|0 – 2 |0%|
 |2.01 – 5 |10%
 |5.01 - 10 |15%|
 |10.01 en adelante |20%|
