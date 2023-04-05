@@ -346,8 +346,7 @@ printf( "floor(%.1f) = %.1f\n", 9.2, floor( 9.2 ) );
 printf( "floor(%.1f) = %.1f\n", -9.8, floor( -9.8 ) );
 printf( "pow(%.1f, %.1f) = %.1f\n", 2.0, 7.0, pow( 2.0,7.0 ) );
 printf( "pow(%.1f, %.1f) = %.1f\n", 9.0, 0.5, pow( 9.0,0.5 ) );
-printf( "fmod(%.3f/%.3f) = %.3f\n", 13.675, 2.333, fmod(
-13.675, 2.333 ) );
+printf( "fmod(%.3f/%.3f) = %.3f\n", 13.675, 2.333, fmod(13.675, 2.333 ) );
 printf( "sin(%.1f) = %.1f\n", 0.0, sin( 0.0 ) );
 printf( "cos(%.1f) = %.1f\n", 0.0, cos( 0.0 ) );
 printf( "tan(%.1f) = %.1f\n", 0.0, tan( 0.0 ) ); system ("pause");
