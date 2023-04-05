@@ -168,7 +168,7 @@ y C. luego se procederá a realizar las diferentes comparaciones.
 ## Ejercicio 26.
 Una frutería ofrece las manzanas con descuento según la siguiente tabla:
 |NUM. DE KILOS COMPRADOS |% DESCUENTO|
-|--------|-------------|
+|--|--|
 |0 – 2 |0%|
 |2.01 – 5 |10%
 |5.01 - 10 |15%|
