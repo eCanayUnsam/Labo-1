@@ -250,54 +250,91 @@ printf("6 - Miligramos\n");
 Dado el siguiente algoritmo y su código, analiza y prueba el código, si existen, corrige
 los errores y por último agrega la función resto, raíz cuadrada y potencia:
 
-Algoritmo Calculadora
-ENTORNO
-/* Las variables y constantes que se utilizan en todo el algoritmo */
-/* Variables de entrada
-entero num1,num2 variables que almacenan los dos números que introducirá el usuario*/
+### Algoritmo Calculadora
+
+**Las variables y constantes que se utilizan en todo el algoritmo**
+
+Variables de entrada introducidas por el usuario
+
+entero: num1,num2 variables que almacenan los dos números
+
+caracter: oper variable que almacenará el carácter correspondiente a la operación seleccionada
+
 entero result variable que almacena el resultado de la operación*/
-caracter oper variable que almacenará el carácter correspondiente a la operación seleccionada por el usuario*/
-INICIO
-/* Pedir Los datos
-** P11.- Pedir los dos números
-** P12.- Pedir la operación
-*/
+
+#### INICIO
+
+**Pedir Los datos
+
+ - Pedir los dos números
+
+- Pedir la operación
+
+
 ESCRIBIR "\n\ A continuación se le pedirán dos números enteros \n"
+
 ESCRIBIR " \n Numero 1:"
+
 LEER "%d", num1
+
 ESCRIBIR " \n Numero 2:"
+
 LEER "%d", num2
+
 ESCRIBIR "\n\ Seleccione una de las operaciones a realizar con los números \n” ESCRIBIR "
+
 \n \tSuma (+) \n\t Resta (-) \n\t Multiplicacion (x) \n "
+
 ESCRIBIR"\n\t Division entera (/)\n\t Resto de Division entera (%)"
+
 ESCRIBIR" \n \t Operacion:"
+
 LEER "%c", oper
-/* Calcular la operación dependiendo del carácter introducido por el usuario*/
+
+#### Calcular
+
+**Calcular la operación dependiendo del carácter introducido por el usuario
+
 segun_sea (oper)
+
 caso '+': result = num1 + num2
+
 caso '-' : result = num1 - num2
+
 caso 'x' : result = num1 * num2
+
 caso '/' : si (num2 != 0) entonces
+
 result = num1 / num2 sino
+
 ESCRIBIR"\n \t \t ERROR!!! Division por cero" fin_si
+
 caso '%' : si (num2 != 0) entonces
+
 result = num1 % num2 sino
+
 Escribir"\n \t \t ERROR!!! Division por cero" fin_si
+
 en cualquier otro caso: ESCRIBIR"\n\n OPERADOR DESCONOCIDO" fin_según_sea
-/*
-** IMPRESION dependiendo del resultado
-*/
-/* Si es una operación de las válidas*/
+
+
+#### IMPRESION dependiendo del resultado
+
+**Si es una operación de las válidas
+
 si ((oper == '+')||(oper == '-')||(oper == '+')||(oper == 'x')||(oper == '/')||(oper == '%')) entonces
-/* Si no es una division por cero*/
+
+**Si no es una division por cero
+
 si ((num2==0)&& ( (oper=='/')||(oper == '%') )) entonces
+
 ESCRIBIR("\n No se puede imprimir el resultado.FIN\n");
-3
+
 sino
+
 ESCRIBIR ("\n \t %d %c %d = %d\n ", num1, oper,num2,result);
-fin_si
-fin_si
-FIN
+
+#### FIN
 
 ```cpp
 #include <stdio.h>
