@@ -293,7 +293,7 @@ LEER "%c", oper
 
 #### Calcular
 
-**Calcular la operación dependiendo del carácter introducido por el usuario**
+**Calcular la operación dependiendo del carácter introducido por el usuario
 
 segun_sea (oper)
 
