@@ -279,6 +279,25 @@ if (numero1 < numero2){
 
 Estos operadores son usamos en los condicionales y ciclos, donde comparamos dos valores para realizar una determinada acción.
 
+## Sentencia `switch`
+
+Es un tipo de condicional que dado un valor introducido los compara con los casos que tiene definido. Un ejemplo de switch en `C++` es el siguiente
+
+```cpp
+switch (c){
+    case 'a':
+    case 'e':
+    case 'i':
+    case 'o':
+    case 'u':	
+        printf("El una vocal.\n");
+        break;
+default:
+    printf("Es una consonante.\n");
+    break;
+}
+```
+
 ## Ciclos o Bucles
 
 Estas estructuras nos permiten ejecutar bloques de códigos dada una condición.
@@ -310,26 +329,6 @@ array[4] = 'E';
 // Ciclo for
 for (unsigned int i = 0; i < sizeof(array) ; i++){
     printf("%c\n",array[i]);
-}
-```
-
-
-## Sentencia `switch`
-
-Es un tipo de condicional que dado un valor introducido los compara con los casos que tiene definido. Un ejemplo de switch en `C++` es el siguiente
-
-```cpp
-switch (c){
-    case 'a':
-    case 'e':
-    case 'i':
-    case 'o':
-    case 'u':	
-        printf("El una vocal.\n");
-        break;
-default:
-    printf("Es una consonante.\n");
-    break;
 }
 ```
 
