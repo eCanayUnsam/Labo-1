@@ -1,3 +1,4 @@
+# IF
 ## Ejercicio 1.
 Desarrolla un algoritmo que le permita leer un valor cualquiera N y escribir en la pantalla si dicho
 número es Positivo, Negativo o 0 (cero).
@@ -175,3 +176,183 @@ Una frutería ofrece las manzanas con descuento según la siguiente tabla:
 |10.01 en adelante |20%|
 
  Determina cuánto pagara una persona que compre X manzanas a Y precio en esa frutería. 
+ 
+#  switch
+ 
+## Ejercicio 1
+ 
+ Tipea y prueba el siguiente programa:
+ ```cpp
+#include <stdio.h>
+int main() {
+ int dia;
+ printf( "\n Introduzca dia de la semana: " );
+ scanf( "%d", &dia );
+ switch ( dia )
+ {
+ case 1 : printf( "\n Lunes" );
+ break;
+ case 2 : printf( "\n Martes" );
+ break;
+ case 3 : printf( "\n Miercoles" );
+ break;
+ case 4 : printf( "\n Jueves" );
+ break;
+ case 5 : printf( "\n Viernes" );
+ break;
+ case 6 : printf( "\n Sabado" );
+ break;
+ case 7 : printf( "\n Domingo" );
+ break;
+ default : printf( "\n ERROR: Dia incorrecto." );
+ }
+ return 0;
+}
+```
+
+\Puedes hacerlo de otra manera?, cómo lo harías sin utilizar switch?
+
+
+## Ejercicio 2
+ 
+ Construir un programa que ingrese un caracter y determine si es una vocal.
+ 
+## Ejercicio 3
+ 
+ Construir un programa que ingrese un caracter y determine si es número.
+ 
+## Ejercicio 4
+ 
+ El código Morse, también conocido como alfabeto Morse, es un sistema de representación de
+letras y números mediante señales emitidas de forma intermitente. Construye un programa que
+permita ingresar un carácter, letra o número y convertirlo en código. 
+
+## Ejercicio 5
+ 
+Construir un programa que convierta Kg a otra unidad de medida de masa, mostrar en pantalla
+un menú con las opciones posibles. Ejemplo de menú:
+```cpp
+printf("Introduzca peso en kilogramos:");
+ scanf("%d",&peso);
+ 
+printf("Seleccione opción:\n");
+printf("1 - Hectogramos\n");
+printf("2 - Decagramos\n");
+printf("3 - Gramos\n");
+printf("4 - Decigramos\n");
+printf("5 - Centigramos\n");
+printf("6 - Miligramos\n");
+ scanf("%d",&opcion);
+ ```
+
+## Ejercicio 6
+
+Dado el siguiente algoritmo y su código, analiza y prueba el código, si existen, corrige
+los errores y por último agrega la función resto, raíz cuadrada y potencia:
+
+Algoritmo Calculadora
+ENTORNO
+/* Las variables y constantes que se utilizan en todo el algoritmo */
+/* Variables de entrada
+entero num1,num2 variables que almacenan los dos números que introducirá el usuario*/
+entero result variable que almacena el resultado de la operación*/
+caracter oper variable que almacenará el carácter correspondiente a la operación seleccionada por el usuario*/
+INICIO
+/* Pedir Los datos
+** P11.- Pedir los dos números
+** P12.- Pedir la operación
+*/
+ESCRIBIR "\n\ A continuación se le pedirán dos números enteros \n"
+ESCRIBIR " \n Numero 1:"
+LEER "%d", num1
+ESCRIBIR " \n Numero 2:"
+LEER "%d", num2
+ESCRIBIR "\n\ Seleccione una de las operaciones a realizar con los números \n” ESCRIBIR "
+\n \tSuma (+) \n\t Resta (-) \n\t Multiplicacion (x) \n "
+ESCRIBIR"\n\t Division entera (/)\n\t Resto de Division entera (%)"
+ESCRIBIR" \n \t Operacion:"
+LEER "%c", oper
+/* Calcular la operación dependiendo del carácter introducido por el usuario*/
+segun_sea (oper)
+caso '+': result = num1 + num2
+caso '-' : result = num1 - num2
+caso 'x' : result = num1 * num2
+caso '/' : si (num2 != 0) entonces
+result = num1 / num2 sino
+ESCRIBIR"\n \t \t ERROR!!! Division por cero" fin_si
+caso '%' : si (num2 != 0) entonces
+result = num1 % num2 sino
+Escribir"\n \t \t ERROR!!! Division por cero" fin_si
+en cualquier otro caso: ESCRIBIR"\n\n OPERADOR DESCONOCIDO" fin_según_sea
+/*
+** IMPRESION dependiendo del resultado
+*/
+/* Si es una operación de las válidas*/
+si ((oper == '+')||(oper == '-')||(oper == '+')||(oper == 'x')||(oper == '/')||(oper == '%')) entonces
+/* Si no es una division por cero*/
+si ((num2==0)&& ( (oper=='/')||(oper == '%') )) entonces
+ESCRIBIR("\n No se puede imprimir el resultado.FIN\n");
+3
+sino
+ESCRIBIR ("\n \t %d %c %d = %d\n ", num1, oper,num2,result);
+fin_si
+fin_si
+FIN
+
+```cpp
+#include <stdio.h>
+/* Programa que simula una calculadora*/
+int main (){ /* INICIO*/
+int num1,num2; /* variables que almacenan los dos números que
+introducirá el usuario*/
+int result; /* variable que almacena el resultado de la operación*/
+char oper; /* variable que almacenará el carácter correspondiente a la operación seleccionada por el
+usuario*/
+/* Pedir Los datos
+** P11.- Pedir los dos números
+** P12.- Pedir la operación */
+printf("\n\ A continuación se le pedirán dos números enteros \n");
+printf( " \n \tNumero 1:");
+scanf( "%d", &num1);
+printf( " \n \tNumero 2:");
+scanf( "%d", &num2);
+printf( "\n\ Seleccione una de las operaciones a realizar con los números \n");
+printf( " \n \tSuma (+) \n\t Resta (-) \n\t Multiplicación (x) \n ");
+printf("\n\t División entera (/)\n\t Resto de División entera (%)");
+printf( " \n \tOperación:");
+fflush(stdin);
+scanf( "%c", &oper);
+/* Calcular la operación, dependiendo del valor de la variable oper */
+switch (oper) {
+case '+': result = num1 + num2 ;
+break;
+case '-': result = num1 - num2 ;
+break;
+case 'x': result = num1 * num2 ;
+break;
+case '/': if (num2 != 0) {
+result = num1 / num2 ; }
+else {
+printf("\n\t\tERROR!!! Division por cero"); }
+break;
+case '%': if (num2 != 0) {
+result = num1 % num2 ; }
+else {
+printf("\n\t\tERROR!!! Division por cero"); }
+break;
+default: printf("\n\n OPERADOR DESCONOCIDO");
+}/*del switch*/
+/* IMPRESION dependiendo del resultado */
+/* Si es una operación de las válidas*/
+if ((oper == '+')||(oper == '-')||(oper == '+')||(oper == 'x')||(oper == '/')||(oper == '%'))
+{
+/* Si no es una division por cero*/
+if ((num2==0)&& ( (oper=='/')||(oper == '%') )) {
+printf("\n No se puede imprimir el resultado. FIN \n"); }
+else {
+printf ("\n \t %d %c %d = %d\n ", num1, oper, num2, result); }
+}
+getchar();
+return 0;
+} /*FIN*/
+```
