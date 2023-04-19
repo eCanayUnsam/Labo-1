@@ -264,7 +264,7 @@ entero result variable que almacena el resultado de la operación*/
 
 #### INICIO
 
-**Pedir Los datos
+**Pedir Los datos**
 
  - Pedir los dos números
 
@@ -293,7 +293,7 @@ LEER "%c", oper
 
 #### Calcular
 
-**Calcular la operación dependiendo del carácter introducido por el usuario
+**Calcular la operación dependiendo del carácter introducido por el usuario**
 
 segun_sea (oper)
 
@@ -320,11 +320,11 @@ en cualquier otro caso: ESCRIBIR"\n\n OPERADOR DESCONOCIDO" fin_según_sea
 
 #### IMPRESION dependiendo del resultado
 
-**Si es una operación de las válidas
+**Si es una operación de las válidas**
 
 si ((oper == '+')||(oper == '-')||(oper == '+')||(oper == 'x')||(oper == '/')||(oper == '%')) entonces
 
-**Si no es una division por cero
+**Si no es una division por cero**
 
 si ((num2==0)&& ( (oper=='/')||(oper == '%') )) entonces
 
