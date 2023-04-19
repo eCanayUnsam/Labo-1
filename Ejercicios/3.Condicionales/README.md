@@ -340,56 +340,56 @@ ESCRIBIR ("\n \t %d %c %d = %d\n ", num1, oper,num2,result);
 #include <stdio.h>
 /* Programa que simula una calculadora*/
 int main (){ /* INICIO*/
-int num1,num2; /* variables que almacenan los dos números que
-introducirá el usuario*/
-int result; /* variable que almacena el resultado de la operación*/
-char oper; /* variable que almacenará el carácter correspondiente a la operación seleccionada por el
-usuario*/
-/* Pedir Los datos
-** P11.- Pedir los dos números
-** P12.- Pedir la operación */
-printf("\n\ A continuación se le pedirán dos números enteros \n");
-printf( " \n \tNumero 1:");
-scanf( "%d", &num1);
-printf( " \n \tNumero 2:");
-scanf( "%d", &num2);
-printf( "\n\ Seleccione una de las operaciones a realizar con los números \n");
-printf( " \n \tSuma (+) \n\t Resta (-) \n\t Multiplicación (x) \n ");
-printf("\n\t División entera (/)\n\t Resto de División entera (%)");
-printf( " \n \tOperación:");
-fflush(stdin);
-scanf( "%c", &oper);
-/* Calcular la operación, dependiendo del valor de la variable oper */
-switch (oper) {
-case '+': result = num1 + num2 ;
-break;
-case '-': result = num1 - num2 ;
-break;
-case 'x': result = num1 * num2 ;
-break;
-case '/': if (num2 != 0) {
-result = num1 / num2 ; }
-else {
-printf("\n\t\tERROR!!! Division por cero"); }
-break;
-case '%': if (num2 != 0) {
-result = num1 % num2 ; }
-else {
-printf("\n\t\tERROR!!! Division por cero"); }
-break;
-default: printf("\n\n OPERADOR DESCONOCIDO");
-}/*del switch*/
-/* IMPRESION dependiendo del resultado */
-/* Si es una operación de las válidas*/
-if ((oper == '+')||(oper == '-')||(oper == '+')||(oper == 'x')||(oper == '/')||(oper == '%'))
-{
-/* Si no es una division por cero*/
-if ((num2==0)&& ( (oper=='/')||(oper == '%') )) {
-printf("\n No se puede imprimir el resultado. FIN \n"); }
-else {
-printf ("\n \t %d %c %d = %d\n ", num1, oper, num2, result); }
-}
-getchar();
-return 0;
+    int num1,num2; /* variables que almacenan los dos números que
+    introducirá el usuario*/
+    int result; /* variable que almacena el resultado de la operación*/
+    char oper; /* variable que almacenará el carácter correspondiente a la operación seleccionada por el
+    usuario*/
+    /* Pedir Los datos
+    ** P11.- Pedir los dos números
+    ** P12.- Pedir la operación */
+    printf("\n\ A continuación se le pedirán dos números enteros \n");
+    printf( " \n \tNumero 1:");
+    scanf( "%d", &num1);
+    printf( " \n \tNumero 2:");
+    scanf( "%d", &num2);
+    printf( "\n\ Seleccione una de las operaciones a realizar con los números \n");
+    printf( " \n \tSuma (+) \n\t Resta (-) \n\t Multiplicación (x) \n ");
+    printf("\n\t División entera (/)\n\t Resto de División entera (%)");
+    printf( " \n \tOperación:");
+    fflush(stdin);
+    scanf( "%c", &oper);
+    /* Calcular la operación, dependiendo del valor de la variable oper */
+    switch (oper) {
+        case '+': result = num1 + num2 ;
+            break;
+        case '-': result = num1 - num2 ;
+            break;
+        case 'x': result = num1 * num2 ;
+            break;
+        case '/': if (num2 != 0) {
+                    result = num1 / num2 ; }
+                else {
+                    printf("\n\t\tERROR!!! Division por cero"); }
+            break;
+        case '%': if (num2 != 0) {
+                    result = num1 % num2 ; }
+                else {
+                    printf("\n\t\tERROR!!! Division por cero"); }
+            break;
+        default: printf("\n\n OPERADOR DESCONOCIDO");
+        }/*del switch*/
+    /* IMPRESION dependiendo del resultado */
+    /* Si es una operación de las válidas*/
+    if ((oper == '+')||(oper == '-')||(oper == '+')||(oper == 'x')||(oper == '/')||(oper == '%'))
+    {
+        /* Si no es una division por cero*/
+        if ((num2==0)&& ( (oper=='/')||(oper == '%') )) {
+            printf("\n No se puede imprimir el resultado. FIN \n"); }
+        else {
+            printf ("\n \t %d %c %d = %d\n ", num1, oper, num2, result); }
+        }
+    getchar();
+    return 0;
 } /*FIN*/
 ```
