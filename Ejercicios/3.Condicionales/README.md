@@ -372,16 +372,11 @@ int main (){ /* INICIO*/
                 else {
                     printf("\n\t\tERROR!!! Division por cero"); }
             break;
-        case '%': if (num2 != 0) {
-                    result = num1 % num2 ; }
-                else {
-                    printf("\n\t\tERROR!!! Division por cero"); }
-            break;
         default: printf("\n\n OPERADOR DESCONOCIDO");
         }/*del switch*/
     /* IMPRESION dependiendo del resultado */
     /* Si es una operación de las válidas*/
-    if ((oper == '+')||(oper == '-')||(oper == '+')||(oper == 'x')||(oper == '/')||(oper == '%'))
+    if ((oper == '+')||(oper == '-')||(oper == '+')||(oper == 'x')||(oper == '/'))
     {
         /* Si no es una division por cero*/
         if ((num2==0)&& ( (oper=='/')||(oper == '%') )) {
