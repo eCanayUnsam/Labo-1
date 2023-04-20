@@ -235,12 +235,15 @@ b)
 for(i=0;i<4;i++);
 printf(“Pepe”);
 ```
-## Ejercicio 3. ¿Qué tiene de malo el siguiente fragmento de programa?
+## Ejercicio 3.
+¿Qué tiene de malo el siguiente fragmento de programa?
+```cpp
 for(i=0;i<5;i++)
 {
 n=i*i;
 i++;
 }
+```
 ## Ejercicio 4.
 Desarrolla un algoritmo que le permita realizar la escritura de los primeros 100 números naturales.
 ## Ejercicio 5.
