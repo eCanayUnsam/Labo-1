@@ -374,22 +374,22 @@ return 0;}
 
 ## Ejercicio 22
 
-Construye un programa que permita ingresar 2 tiempos, expresados en horas, minutos y segundos, el mismo debe emitir por pantalla la suma de ambos(también en horas, minutos y segundos).
+Ingresa una cantidad entera de segundos y conviértela en horas, minutos y segundo utilizando los operadores de cociente y resto enteros.
 
 ## Ejercicio 23
+
+Construye un programa que permita ingresar 2 tiempos, expresados en horas, minutos y segundos, el mismo debe emitir por pantalla la suma de ambos(también en horas, minutos y segundos).
+
+## Ejercicio 24
 
 Desarrolla un algoritmo que le permita leer un valor radio (R), calcular el área (A) de un círculo y emitir valor.
 $A = π * R^2$
 
-## Ejercicio 24
+## Ejercicio 25
 
 Determina la hipotenusa de un triángulo rectángulo conocidas las longitudes de sus dos catetos. Desarrolla los correspondientes algoritmos.
 
 $H=\sqrt((Cat1)^2 +(Cat2)^2 )$
-
-## Ejercicio 25
-
-Ingresa una cantidad entera de segundos y conviértela en horas, minutos y segundo utilizando los operadores de cociente y resto enteros.
 
 ## Ejercicio 26
 
