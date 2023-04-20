@@ -1,3 +1,4 @@
+# While
 ## Ejercicio 1
 
 ¿Cuál será la salida en pantalla para cada uno de los siguientes fragmentos de programa? De existir errores, señálalos
@@ -95,3 +96,60 @@ salida será:
 |... |... |...|
 |...| ... |...|
 |2.0| -1.00 |NO POSITIVO|
+
+## Ejercicio 11.
+Escribir un programa de sueldos usando un ciclo do while con señal de finalización. Para cada empleado, el
+programa debe solicitar el nombre, el sexo, las horas de trabajo y el sueldo por hora. La primera parte de la
+impresión debe dar el nombre de cada empleado, las horas de trabajo, el sueldo por hora y cuánto cobrará. La
+segunda parte deberá indicar el sueldo promedio de los hombres y el sueldo promedio de las mujeres.
+## Ejercicio 12. 
+Pepe empieza con un saldo de $100.000,- que invierte a una tasa anual del 5%. Al finalizar cada año, justo después
+de sumar los intereses de ese ciclo, Pepe hará un retiro por $12.000,-. ¿Cuál será el primer año en que, al llegar al
+final del período, su saldo no permita semejante retiro?
+# do-while
+## Ejercicio 1 
+¿Cuál será la salida en pantalla para cada uno de los siguientes fragmentos de programa? Encontrala utilizando
+seguimiento manual. De existir errores, menciónalos.
+
+a)
+```cpp
+x=0;
+do
+{
+printf(“%d”, x);
+x = x + 1;
+}
+while (x != 5);
+```
+b)
+```cpp
+x=0;
+do
+{
+x = x + 1;
+printf(“%d”, x);
+}
+while (x != 5);
+```
+c)
+```cpp
+x=0;
+do
+{
+x = x + 1;
+printf(“%d”, x);
+}
+while (x < 5);
+```
+d)
+```cpp
+x=0;
+y=0;
+do
+{
+x = x + 2;
+y = x – 2;
+printf(“%d %d \n”, x,y);
+}
+while( y <= 5);
+```
