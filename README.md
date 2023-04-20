@@ -341,7 +341,7 @@ array[2] = 'C';
 array[3] = 'D';
 array[4] = 'E';
 // Ciclo for
-for (unsigned int i = 0; i < sizeof(array) ; i++){
+for (int i = 0; i < sizeof(array) ; i++){
     printf("%c\n",array[i]);
 }
 ```
