@@ -314,6 +314,20 @@ while (i <= 5) {
     i++;
 }
 ```
+
+## Ciclo `do while`
+
+Ejecuta las sentencia siempre que la condición sea verdadera. La expresión se verfica en cada inicio de la iteración.
+
+```cpp 
+int i = 0;
+do {
+    printf("Valor de i: %d\n",i);
+    // Aumentamos el valor de la variable
+    i++;
+}while (i <= 5);
+```
+
 ## Ciclo `for`
 
 El ciclo for ejecuta la primera expresión al iniciar el ciclo. Luego al inicio de cada iteración (Repetición) evalúa la segunda expresion y al final de cada iteración ejecuta la tercera expresion.
@@ -327,7 +341,7 @@ array[2] = 'C';
 array[3] = 'D';
 array[4] = 'E';
 // Ciclo for
-for (unsigned int i = 0; i < sizeof(array) ; i++){
+for (int i = 0; i < sizeof(array) ; i++){
     printf("%c\n",array[i]);
 }
 ```
