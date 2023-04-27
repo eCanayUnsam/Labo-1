@@ -300,5 +300,5 @@ Escribe un programa en el que se pida al usuario que ingrese una oración (maxim
 
 ## Ejercicio 7.
 
-Escribe un programa en el que se pida al usuario que ingrese mas de una oracion, las oraciones separadas por un '.'(maximo 200 caracteres) y que verifique que la letra inicial de la primera palabra de cada oracion este en mayuscola. De no ser asi imprimir un mensaje por pantalla y cambiar la letra a mayuscula.
+Escribe un programa en el que se pida al usuario que ingrese más de una oracion, las oraciones separadas por un '.'(maximo 200 caracteres) y que verifique que la letra inicial de la primera palabra de cada oracion este en mayuscola. De no ser asi imprimir un mensaje por pantalla y cambiar la letra a mayuscula.
 
