@@ -1,0 +1,66 @@
+#include <stdio.h>
+
+
+void funcionJeringoso(char cadena[]);
+
+char jeringoso[100];
+
+int main()
+{
+    char cadena[50]; // Aquí alojaremos el valor leído
+
+    gets(cadena);
+
+    funcionJeringoso(cadena);
+
+    printf("Cadena '%s'\n", cadena);
+    printf("Jeringoso '%s'\n", jeringoso);
+
+
+    return 0;
+
+}
+
+
+void funcionJeringoso(char cadena[]){
+
+    int indiceCadena= 0;
+
+    int indicejeringoso= 0;
+
+      while (cadena[indiceCadena] != 0)
+    {
+        switch(cadena[indiceCadena])
+        {
+            case 'A':
+            case 'a':
+            case 'E':
+            case 'e':
+            case 'I':
+            case 'i':
+            case 'O':
+            case 'o':
+            case 'U':
+            case 'u':
+                jeringoso[indicejeringoso] = cadena[indiceCadena];
+                indicejeringoso++;
+                jeringoso[indicejeringoso] = 'p';
+                indicejeringoso++;
+                jeringoso[indicejeringoso] = cadena[indiceCadena];
+                indicejeringoso++;
+                indiceCadena++;
+                break;
+            default:
+                jeringoso[indicejeringoso] = cadena[indiceCadena];
+                indicejeringoso++;
+                indiceCadena++;
+                break;
+        }
+    }
+
+    jeringoso[indicejeringoso] = '\0';
+
+
+
+}
+

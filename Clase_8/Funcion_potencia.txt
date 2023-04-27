@@ -1,0 +1,57 @@
+#include <stdio.h>
+
+void cuadrado(int a);
+
+int main(){
+
+    int a=2;
+
+    printf("a = %d\n",a);
+
+    cuadrado(a);
+
+    printf("a = a * a\n");
+
+    printf("a = %d",a);
+
+    return 0;
+}
+
+
+void cuadrado(int a){
+
+    a = a * a;
+
+    return;
+}
+
+/*
+
+int cuadrado(int a);
+
+int main(){
+
+    int a=2;
+
+    printf("a = %d\n",a);
+
+    a = cuadrado(a);
+
+    printf("a = cuadrado(a)\n");
+
+    printf("a = %d",a);
+
+    return 0;
+}
+
+
+int cuadrado(int a){
+
+    a = a * a;
+
+    return a;
+
+    //return a * a;
+}
+
+*/

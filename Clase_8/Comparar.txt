@@ -10,15 +10,14 @@ int main()
     printf("Escribe el codigo:\n");
     gets(cadena); // No usamos &
 
-
     indice=0;
     flag=1;
-    while (cadena[indice] != 0 )
+    while (cadena[indice] != 0 && codigo[indice] != 0)
     {
       printf("%c == %c da : %d\n",codigo[indice],cadena[indice],codigo[indice] == cadena[indice]);
       if(codigo[indice] != cadena[indice])
         flag=0;
-        indice++;
+    indice++;
     }
     printf("%c == %c da : %d\n",codigo[indice],cadena[indice],codigo[indice] == cadena[indice]);
     if(codigo[indice] != cadena[indice])

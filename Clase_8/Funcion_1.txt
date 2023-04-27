@@ -1,0 +1,31 @@
+#include<stdio.h>
+
+
+void funcion(int a = 10){
+    printf("%d\n",a+3);
+}
+
+int main(){
+    funcion();
+    funcion(12);
+    return 0;
+}
+
+
+/*
+
+void funcion(int a = 10);
+
+int main(){
+    funcion();
+    funcion(12);
+    return 0;
+}
+
+
+
+void funcion(int a){
+    printf("%d\n",a+3);
+}
+
+*/
