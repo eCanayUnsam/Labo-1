@@ -271,3 +271,34 @@ ingresan el nombre y las tres calificaciones de cada alumno y con esos datos el 
 el promedio de cada alumno y decir si está aprobado o no; para aprobar se requiere un promedio de seis o más y
 haber obtenido al menos seis en la última de las tres calificaciones. Posteriormente el programa debe informar
 cuántos alumnos aprobaron y cuántos obtuvieron un promedio de al menos 8 puntos.
+
+
+# Cadena de caracteres 
+
+## Ejercicio 1.
+
+Escribe un programa en el que se pida al usuario que ingrese una oración (maximo 50 caracteres) e imprima por pantalla la cantidad de caracteres ingresadas por el usuario.
+
+## Ejercicio 2.
+
+Escribe un programa en el que se pida al usuario que ingrese una oración (maximo 50 caracteres) e imprima por pantalla la cantidad de vocales en la oración.
+
+## Ejercicio 3.
+
+Escribe un programa en el que se pida al usuario que ingrese una oración (maximo 50 caracteres) y le cambie todas las vocales minusculas por mayuscula.
+
+## Ejercicio 4.
+
+Escribe un programa en el que se pida al usuario que ingrese una oración (maximo 50 caracteres) e imprima por pantalla la cantidad de palabras en la oración.
+
+## Ejercicio 5.
+Escribe un programa en el que se pida al usuario que ingrese una oración (maximo 50 caracteres) y la traduzca a jeringoso.
+
+## Ejercicio 6.
+
+Escribe un programa en el que se pida al usuario que ingrese una oración (maximo 15 caracteres) y que imprima por pantalla si esa oracion es "Hola Mundo".
+
+## Ejercicio 7.
+
+Escribe un programa en el que se pida al usuario que ingrese mas de una oracion, las oraciones separadas por un '.'(maximo 200 caracteres) y que verifique que la letra inicial de la primera palabra de cada oracion este en mayuscola. De no ser asi imprimir un mensaje por pantalla y cambiar la letra a mayuscula.
+
