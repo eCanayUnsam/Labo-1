@@ -379,8 +379,8 @@ void funcion(int a = 10){
 De esta manera, ya el valor de a tiene predefinido 10, sin embargo este valor puede ser cambiado al pasar por parámetro un nuevo valor en la llamada de la función.
 ```cpp
 int main(){
-    function();
-    function(12);
+    funcion();
+    funcion(12);
     return 0;
 }
 ```
