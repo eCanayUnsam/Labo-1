@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main() {
+    int numero_generado, numero_ingresado;
+    srand(time(NULL));
+    numero_generado = rand() % 100 + 1;
+
+    for(int i; i < 3;i++) {
+        printf("Ingrese un n%cmero entre 1 y 100: ",163);
+        scanf("%d", &numero_ingresado);
+
+
+        if (numero_ingresado == numero_generado) {
+            printf("¡Felicidades! Has adivinado el n%cmero.\n");
+            return 0;
+        } else if (numero_ingresado < numero_generado) {
+            printf("El n%cmero ingresado es menor al n%cmero generado.\n",163,163);
+        } else {
+            printf("El n%cmero ingresado es mayor al n%cmero generado.\n",163,163);
+        }
+    }
+
+    printf("Lo lamentamos, has perdido. El n%cmero generado era %d.\n",163, numero_generado);
+    return 0;
+}
+
