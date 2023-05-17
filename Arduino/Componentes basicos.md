@@ -5,6 +5,15 @@
 ## Circuito
 ![Circuito Led](https://github.com/eCanayUnsam/Labo-1/blob/main/Imagenes/CircuitoLed.jpg)
 
+# Resistencia
+
+![Resistencia](https://github.com/eCanayUnsam/Labo-1/blob/main/Imagenes/Res.jpg)
+
+# Protoboard 
+
+![Protoboard](https://github.com/eCanayUnsam/Labo-1/blob/main/Imagenes/PistasProto.jpg)
+
+
 # 7 Segmentos
 
 ![7 Segmentos](https://github.com/eCanayUnsam/Labo-1/blob/main/Imagenes/7Seg.jpg)
