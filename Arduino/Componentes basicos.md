@@ -16,7 +16,7 @@
 
 # 7 Segmentos
 
-![link](https://www.tinkercad.com/things/9tsILPihS0r-led/editel?sharecode=z00meUx9xNT5SNoP4Hx1vnFYHaRrS_lQrrjbKimLQu4)
+https://www.tinkercad.com/things/9tsILPihS0r-led/editel?sharecode=z00meUx9xNT5SNoP4Hx1vnFYHaRrS_lQrrjbKimLQu4
 
 ![7 Segmentos](https://github.com/eCanayUnsam/Labo-1/blob/main/Imagenes/7Seg.jpg)
 
