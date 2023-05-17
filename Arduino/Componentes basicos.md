@@ -7,7 +7,7 @@
 
 # Resistencia
 
-![Resistencia](https://github.com/eCanayUnsam/Labo-1/blob/main/Imagenes/Res.jpg)
+![Resistencia](https://github.com/eCanayUnsam/Labo-1/blob/main/Imagenes/Res.jpeg)
 
 # Protoboard 
 
