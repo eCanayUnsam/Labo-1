@@ -16,3 +16,8 @@ Se utiliza para escribir y cargar programas en placas compatibles con Arduino.
 
 [IDE Arduino](https://www.arduino.cc/en/software)
 
+
+Tinkercad es un programa de modelado en 3D gratuito y en línea que se ejecuta en un navegador web.
+
+[Tinkercad]([https://www.arduino.cc/en/software](https://www.tinkercad.com/))
+
