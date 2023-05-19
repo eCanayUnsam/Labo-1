@@ -1,4 +1,10 @@
+# Salida
 
+## Salida digital
+
+## Salida analogica
+
+## Puerto serie
 
 # Entradas
 
