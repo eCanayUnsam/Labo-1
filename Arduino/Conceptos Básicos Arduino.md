@@ -21,7 +21,7 @@ void setup() {
   pinMode(A0, INPUT); //Configuro el pin 8 como entrada
   }
 void loop() {
-int Lectura= analogRead(A0); //Leo el pin A0 y guardo un valor de 0 a 1023 en la variable Lectura
+int Lectura= analogRead(A0); //Leo el pin A0 y comvierto el valor analogico del pin en un valor digital desde 0 a 1023 en la variable Lectura
 }
 
 ```
