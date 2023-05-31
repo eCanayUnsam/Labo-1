@@ -4,6 +4,8 @@
 
 https://www.tinkercad.com/things/fLrbhCzNNql
 
+https://www.tinkercad.com/things/g6Hemwdnpeq?sharecode=vrLDU68sAdzl-jMn2uh0Pnl1u1fPrtltntzlk6yRUrk
+
 ## Salida analogica
 
 ## Puerto serie
