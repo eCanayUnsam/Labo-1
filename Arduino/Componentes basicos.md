@@ -23,10 +23,8 @@
 ## Circuito
 ![Circuito 7 Segmentos](https://github.com/eCanayUnsam/Labo-1/blob/main/Imagenes/Circuito7Seg.jpg)
 
-# Pote
+# Pote, LDR y Boton
 
-# LDR
-
-# Boton
+https://www.tinkercad.com/things/6A976BkQrEk?sharecode=jfFCzRRrBE0ljsZtNGUFG9WmHK-OzrVrOlP8pvOUNuk
 
 # Led RGB
