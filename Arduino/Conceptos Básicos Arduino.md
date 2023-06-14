@@ -11,6 +11,8 @@ https://www.tinkercad.com/things/g6Hemwdnpeq?sharecode=vrLDU68sAdzl-jMn2uh0Pnl1u
 https://www.tinkercad.com/things/3KZINvrjeCj?sharecode=lhp8Dm1yikcE-VQymHZkBdXrHvxAS7rNh_kuuoHcwdU
 ## Puerto serie
 
+https://www.tinkercad.com/things/6A976BkQrEk?sharecode=jfFCzRRrBE0ljsZtNGUFG9WmHK-OzrVrOlP8pvOUNuk
+
 # Entradas
 
 ## Lectura digital
