@@ -8,6 +8,7 @@ https://www.tinkercad.com/things/g6Hemwdnpeq?sharecode=vrLDU68sAdzl-jMn2uh0Pnl1u
 
 ## Salida analogica
 
+https://www.tinkercad.com/things/3KZINvrjeCj?sharecode=lhp8Dm1yikcE-VQymHZkBdXrHvxAS7rNh_kuuoHcwdU
 ## Puerto serie
 
 # Entradas
