@@ -1,11 +1,24 @@
 #include<stdio.h>
 
 int main(){
-int a;
-long b;
-float c;
-char car;
 
+int a = 0;
+int b = 5;
+int c = 5;
+int res;
+
+
+res = !(false);
+printf("res = %i \n",false);
+res = !(true) ;
+printf("res = %i \n",res);
+res = !(4) ;
+printf("res = %i \n",res);
+
+
+  return 0;
+
+/*
 printf("Ingrese un valor entero\n");
 scanf("%d", &a);
 fflush(stdin);
@@ -27,6 +40,7 @@ scanf("%c", &car);
 fflush(stdin);
 printf ("%c es el valor de car\n", car);
 
+*/
 getchar();
 return 0;
 }
