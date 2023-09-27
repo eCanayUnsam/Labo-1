@@ -20,7 +20,7 @@ int main() {
         scanf("%d", &legajo);
 
 	// Ingreso los alumnos hasta recibir el legajo '\0'
-        while (legajo != '\0') {
+        while (legajo != 0) {
             // Leer datos del alumno
             printf("Ingrese grado (A/B): ");
             scanf(" %c", &grado);
