@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    char cadena[100];
+    int i;
+
+    printf("Ingrese una cadena de caracteres: ");
+    fgets(cadena, 100, stdin);
+
+    for(i = 0; cadena[i] != '\0'; i++) {
+        if(cadena[i] == 'a' || cadena[i] == 'e' || cadena[i] == 'i' || cadena[i] == 'o' || cadena[i] == 'u' ||cadena[i] == 'A' || cadena[i] == 'E' || cadena[i] == 'I' || cadena[i] == 'O' || cadena[i] == 'U' || cadena[i] == 'á' || cadena[i] == 'é' || cadena[i] == 'í' || cadena[i] == 'ó' || cadena[i] == 'ú' || cadena[i] == 'Á' || cadena[i] == 'É' || cadena[i] == 'Ó' || cadena[i] == 'Ú')
+            cadena[i] = ' ';
+    }
+
+    printf("Cadena resultante: %s", cadena);
+
+    return 0;
+}
