@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+int main() {
+
+    char cadena[100],buscado,reemplazar;
+
+    printf("Ingrese una cadena de caracteres:");
+    gets(cadena);
+
+    for(int i=0; cadena[i] != '\0'; i++ )
+    {
+        if(('a' <= cadena[i] && cadena[i]<= 'z') || ('A' <= cadena[i] && cadena[i]<= 'Z'))
+            {
+                switch(cadena[i])
+                {
+                    case 'A':
+                    case 'E':
+                    case 'I':
+                    case 'O':
+                    case 'U':
+                    case 'a':
+                    case 'e':
+                    case 'i':
+                    case 'o':
+                    case 'u':
+
+                    break;
+
+                    default:
+                        cadena[i]=' ';
+                    break;
+                }
+            }
+    }
+
+
+    printf("su cadena es: %s",cadena);
+
+    return 0;
+}

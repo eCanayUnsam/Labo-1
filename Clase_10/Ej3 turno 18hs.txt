@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main() {
+
+    char cadena[100],buscado,reemplazar;
+
+    printf("Ingrese una cadena de caracteres:");
+    gets(cadena);
+
+    printf("Ingrese la letra que desea buscar:");
+    fflush(stdin);
+    scanf("%c",&buscado);
+
+    printf("Ingrese la letra con la que se debe reemplazar:");
+    fflush(stdin);
+    scanf("%c",&reemplazar);
+
+    for(int i=0; cadena[i] != '\0'; i++ )
+    {
+        if(cadena[i]==buscado)
+            cadena[i]=reemplazar;
+    }
+
+
+    printf("su cadena es: %s",cadena);
+
+    return 0;
+}

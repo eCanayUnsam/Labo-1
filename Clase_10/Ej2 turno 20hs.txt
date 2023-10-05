@@ -1,0 +1,54 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main() {
+    int resultado,dinero,dado1,dado2;
+    char continuar;
+
+    srand(time(NULL)); // inicializar el generador de números aleatorios
+
+    printf("¿Cuánto dinero quiere apostar?");
+    scanf("%i",&dinero);
+
+    do{
+
+        dado1 = (rand() % 6) + 1; // generar un número aleatorio entre 1 y 6
+
+        dado2 = (rand() % 6) + 1; // generar un número aleatorio entre 1 y 6
+
+        resultado = dado1 + dado2;
+
+        switch(resultado)
+        {
+            case 6:
+            case 7:
+            case 8:
+                printf("¡Usted ganó!! duplica su apuesta\n");
+                dinero = dinero * 2;
+            break;
+
+            case 2:
+            case 12:
+                printf("Perdio TODO!!!\n");
+                dinero = 0;
+            break;
+
+            default:
+                printf("Usted perdió la mitad de su apuesta\n");
+                dinero = dinero / 2;
+            break;
+        }
+
+        printf("Los dados son %i y %i sumando %i, su dinero es $%i \n",dado1,dado2,resultado,dinero);
+
+        printf("¿Quiere apostar nuevamente? (S/N)");
+        fflush(stdin);
+        scanf("%c",&continuar);
+
+    }while(continuar == 's' || continuar == 'S' );
+
+    printf("Tome sus $%i. Vuelva pronto! \n",dinero);
+
+    return 0;
+}
