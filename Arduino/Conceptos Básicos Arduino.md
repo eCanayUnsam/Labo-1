@@ -39,6 +39,8 @@ int Lectura= analogRead(A0); //Leo el pin A0 y comvierto el valor analogico del 
 ```
 https://www.tinkercad.com/things/6A976BkQrEk?sharecode=jfFCzRRrBE0ljsZtNGUFG9WmHK-OzrVrOlP8pvOUNuk
 
+## Detector de flanco
+
 
 # Librerias
 
