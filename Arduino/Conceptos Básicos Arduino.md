@@ -2,7 +2,7 @@
 
 ## Salida digital
 
-https://www.tinkercad.com/things/fLrbhCzNNql
+[https://www.tinkercad.com/things/fLrbhCzNNql](https://www.tinkercad.com/things/1KKbEFIBrLv?sharecode=SKdeNute1usTTCweaROdkSzzcU5DBqomDRYSTs5BKns)
 
 
 ## Salida analogica
