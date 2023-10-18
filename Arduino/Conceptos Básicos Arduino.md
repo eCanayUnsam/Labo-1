@@ -10,7 +10,7 @@
 [https://www.tinkercad.com/things/3KZINvrjeCj?sharecode=lhp8Dm1yikcE-VQymHZkBdXrHvxAS7rNh_kuuoHcwdU](https://www.tinkercad.com/things/a1sipcAOev3?sharecode=xwS5jPo1swP8N-depEeJX8UuSJlcFx8LWY9ixGGq1-M)
 ## Puerto serie
 
-https://www.tinkercad.com/things/6A976BkQrEk?sharecode=jfFCzRRrBE0ljsZtNGUFG9WmHK-OzrVrOlP8pvOUNuk
+[https://www.tinkercad.com/things/6A976BkQrEk?sharecode=jfFCzRRrBE0ljsZtNGUFG9WmHK-OzrVrOlP8pvOUNuk](https://www.tinkercad.com/things/dILmcU3LGVg?sharecode=7cxtq9rnvMEo1OQPLJj8PmXhRv9LZRceTQAJiFcfgF0)
 
 # Entradas
 
