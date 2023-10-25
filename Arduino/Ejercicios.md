@@ -3,6 +3,9 @@ Controle una secuencia de 6 LEDs. Un solo LED se encienden en orden secuencial (
 
 https://www.tinkercad.com/things/g6Hemwdnpeq?sharecode=vrLDU68sAdzl-jMn2uh0Pnl1u1fPrtltntzlk6yRUrk
 
+Resuelto
+https://www.tinkercad.com/things/7s2Yg60BJsu?sharecode=QXn8oY_WmNXLEut_jemNUiQrQ1rGFzjtTXcUzVJmv5Y
+
 # Ejercicio 2
 
 https://www.tinkercad.com/things/5ZVfA2ePdV8?sharecode=2ca17TyXcrXiqHcy7Q0mDAknp9eeIdPPV8Ef9TgPrPU
