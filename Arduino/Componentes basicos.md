@@ -20,7 +20,6 @@
 
 ![7 Segmentos](https://github.com/eCanayUnsam/Labo-1/blob/main/Imagenes/7Seg.jpg)
 
-
 https://www.tinkercad.com/things/4YjNkeG9uZQ
 
 ## Circuito
