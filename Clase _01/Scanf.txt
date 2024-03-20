@@ -1,10 +1,11 @@
 #include<stdio.h>
 
 int main(){
-int a;
-long b;
-float c;
-char car;
+
+int a = 0;
+int b = 5;
+int c = 5;
+int res;
 
 printf("Ingrese un valor entero\n");
 scanf("%d", &a);
@@ -26,6 +27,7 @@ printf("Ingrese un caracter\n");
 scanf("%c", &car);
 fflush(stdin);
 printf ("%c es el valor de car\n", car);
+
 
 getchar();
 return 0;

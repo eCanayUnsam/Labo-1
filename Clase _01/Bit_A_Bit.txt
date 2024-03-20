@@ -2,10 +2,10 @@
 
 /* Operaciones A Nivel De Bits, (Bitwise):
 El lenguaje c proporciona la posibilidad de manipular los bits de
-un byte, realizando operaciones l�gicas y de
+un byte, realizando operaciones lógicas y de
 desplazamiento. Operadores a nivel de bits:
 OPERADOR & | ^ ~ << >>
-ACCI�N
+ACCIÓN
 And entre bits
 Or entre bits
 Xor entre bits, (or exclusivo).
@@ -69,7 +69,7 @@ printf("n1 = %d y n2 = %d ==> n1and = n1 ^ n2 es %d\n", n1, n2, n1xor);
 /********** OPERACION NOT
 Ojo que ~ (not) me cambia el bit de paridad lo que implica que cambia el
 signo, en este ejemplo me muestra -30 si pongo %d pero en realidad se
-trata del 226 cuyo caracter corresponde a -> â*/
+trata del 226 cuyo caracter corresponde a -> Ã¢*/
 n1not = ~n1;
 /*~|0|0|0|1|1|1|0|1 (29 decimal)
 //=|1|1|1|0|0|0|1|0 (226 decimal)*/
