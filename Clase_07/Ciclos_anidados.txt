@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+int x = 0; /* inicializa x */
+int y; /* define y */
+printf("--------------Ciclo while----------------");
+while ( x < 3 ) { /*ciclo exterior repite 3 veces*/
+ printf("%d iteración de x\n", x); /* mensaje */
+ y = 0;
+ while ( y < 10 ) {/* ciclo interior repite 10 veces */
+ printf( "Estoy en x: %d - y: %d\n",x,y); /* mensaje */
+ y++; /* incrementa la y */
+ } /* fin del while interno */
+ x++; /* incrementa la x */
+ printf( "\n" ); /* salto de línea */
+ } /* fin del while externo */
+return 0; /* indica que el programa terminó con exito */
+} /* fin de la función main */

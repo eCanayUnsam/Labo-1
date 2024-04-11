@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+
+int main()
+{
+    char cadena[6]; // Aquí alojaremos el valor leído
+    int indice= 0,flag;
+
+    printf("Escribe el Numero:\n");
+    gets(cadena); // No usamos &
+
+    while(cadena[indice]!='\0')
+    {
+        indice++;
+    }
+    
+    printf("indice %d\n",indice);
+    printf("%c == %c \n",cadena[0],cadena[indice-1]);
+    if(cadena[0]==cadena[indice-1])
+    {
+        printf("%c == %c \n",cadena[1],cadena[indice-2]);
+        if(cadena[1]==cadena[indice-2])
+            printf("si");
+        else
+            printf("no");
+    }else
+    printf("no");
+
+
+    return 0;
+
+}
