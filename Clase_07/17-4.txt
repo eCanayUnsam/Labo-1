@@ -1,0 +1,163 @@
+#include <stdio.h>
+
+
+int main()
+{
+    //int cadena[]= {23,235,234,123,312,4,64,2,1,21}; // Aquí alojaremos el valor leído
+    int indice= 0;
+    int val_max,indice_max,numero;
+    int val_min,indice_min;
+
+    printf("Ingresa un numero (0 para terminar)");
+    scanf("%d",&numero);
+
+    for (indice = 1; numero != 0 ; indice++)
+    {
+        if(indice==1)
+        {
+            val_max=numero;
+            indice_max=indice;
+            val_min=numero;
+            indice_min=indice;
+
+        }else{
+            if (numero > val_max)
+            {
+                val_max=numero;
+                indice_max=indice;
+            }
+            if (numero < val_min)
+            {
+                val_min=numero;
+                indice_min=indice;
+            }
+        }
+
+       printf("Ingresa un numero (0 para terminar)");
+        scanf("%d",&numero);
+    }
+
+    printf("val_max = %d - indice_max = %d\n",val_max,indice_max);
+    printf("val_min = %d - indice_min = %d\n",val_min,indice_min);
+
+    return 0;
+
+}
+
+
+#include <stdio.h>
+
+
+int main()
+{
+    //int cadena[]= {23,235,234,123,312,4,64,2,1,21}; // Aquí alojaremos el valor leído
+    int indice= 0;
+    int val_max,indice_max,numero;
+    int val_min,indice_min;
+
+    printf("Ingresa un numero (0 para terminar)");
+    scanf("%d",&numero);
+
+    indice==1;
+
+    while(numero != 0){
+
+         if(indice==1)
+        {
+            val_max=numero;
+            indice_max=indice;
+            val_min=numero;
+            indice_min=indice;
+
+        }else{
+            if (numero > val_max)
+            {
+                val_max=numero;
+                indice_max=indice;
+            }
+            if (numero < val_min)
+            {
+                val_min=numero;
+                indice_min=indice;
+            }
+        }
+
+       printf("Ingresa un numero (0 para terminar)");
+        scanf("%d",&numero);
+
+        indice++;
+    }
+
+
+
+
+
+    printf("val_max = %d - indice_max = %d\n",val_max,indice_max);
+    printf("val_min = %d - indice_min = %d\n",val_min,indice_min);
+
+    return 0;
+
+}
+
+#include <stdio.h>
+
+
+int main()
+{
+    //int cadena[]= {23,235,234,123,312,4,64,2,1,21}; // Aquí alojaremos el valor leído
+    int indice= 0;
+    int val_max,indice_max,numero;
+    int val_min,indice_min;
+
+    int acumulador=0;
+
+    for (int i=1; i<=7;i++)
+    {
+        printf("------ curso %d ------\n",i);
+        printf("Ingresa un numero (0 para terminar)");
+        scanf("%d",&numero);
+
+        indice==1;
+
+        while(numero != 0){
+
+             if(indice==1)
+            {
+                val_max=numero;
+                indice_max=indice;
+                val_min=numero;
+                indice_min=indice;
+
+            }else{
+                if (numero > val_max)
+                {
+                    val_max=numero;
+                    indice_max=indice;
+                }
+                if (numero < val_min)
+                {
+                    val_min=numero;
+                    indice_min=indice;
+                }
+            }
+
+            acumulador += numero; // acumulador = acumulador + numero;
+
+           printf("Ingresa un numero (0 para terminar)");
+            scanf("%d",&numero);
+
+            indice++;
+        }
+
+
+        printf("acumulador = %d - indice = %d\n",acumulador,indice);
+        printf("promedio = %d \n",acumulador/indice);
+
+
+        printf("val_max = %d - indice_max = %d\n",val_max,indice_max);
+        printf("val_min = %d - indice_min = %d\n",val_min,indice_min);
+    }
+        return 0;
+
+}
+
