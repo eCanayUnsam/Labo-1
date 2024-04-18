@@ -99,6 +99,7 @@ int main()
 
 }
 
+
 #include <stdio.h>
 
 
@@ -140,7 +141,7 @@ int main()
                     indice_min=indice;
                 }
             }
-
+                
             acumulador += numero; // acumulador = acumulador + numero;
 
            printf("Ingresa un numero (0 para terminar)");
@@ -155,9 +156,8 @@ int main()
 
 
         printf("val_max = %d - indice_max = %d\n",val_max,indice_max);
-        printf("val_min = %d - indice_min = %d\n",val_min,indice_min);
+        printf("val_min = %d - indice_min = %d\n",val_max,indice_max);
     }
         return 0;
 
 }
-

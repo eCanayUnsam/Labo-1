@@ -1,0 +1,55 @@
+#include <stdio.h>
+
+int main() {
+
+float peso;
+char opcion;
+
+printf( "Introduzca peso en kilogramos: " );
+scanf( "%f",&peso);
+printf("%f",peso);
+
+
+printf("Eliga la unidad de medida a la cual quiere cambiar:\n");
+printf("1 - Hectogramos\n");
+printf("2 - Decagramos\n");
+printf("3 - Gramos\n");
+printf("4 - Decigramos\n");
+printf("5 - Centigramos\n");
+printf("6 - Miligramos\n");
+
+printf("antes %f",peso);
+scanf("%d",&opcion);
+printf("despues %f",peso);
+
+switch (opcion)
+{
+case 1:
+peso=peso*10;
+printf("%0.2f Hectogramos\n", peso);
+break;
+case 2:
+printf("antes %f",peso);
+peso=peso*100;
+printf("despues %f",peso);
+printf("%0.2f Decagramos\n", peso);
+break;
+case 3:
+peso=peso*1000;
+printf("%0.2f Gramos\n", peso);
+break;
+case 4:
+peso=peso*10000;
+printf("%0.2f Decigramos\n", peso);
+break;
+case 5:
+peso=peso*100000;
+printf("%0.2f Centigramos\n", peso);
+break;
+case 6:
+peso=peso*1000000;
+printf("%0.2f Miligramos\n", peso);
+break;
+}
+return 0;
+}
