@@ -161,3 +161,123 @@ int main()
         return 0;
 
 }
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main() {
+    int opcionComputadora;
+    char opcionUsuario;
+    srand(time(NULL)); // Inicializar generador de números aleatorios
+    // Obtener elección aleatoria de la computadora (0 - piedra, 1 - papel, 2 - tijera)
+    opcionComputadora = rand() % 3;
+
+    printf("ingrese (piedra ('I'), papel ('A') o tijera ('T'))");
+    fflush(stdin);
+    scanf("%c",&opcionUsuario);
+
+    printf("opcionUsuario ");
+
+    switch(opcionUsuario)
+            {
+                case 'I':
+                    printf("piedra ");
+                break;
+                case 'A':
+                    printf("papel ");
+                break;
+                case 'T':
+                    printf("tijera ");
+                break;
+            }
+printf(" - opcionComputadora ");
+    switch(opcionComputadora)
+            {
+                case 0:
+                    printf("piedra ");
+                break;
+                case 1:
+                    printf("papel ");
+                break;
+                case 2:
+                    printf("tijera ");
+                break;
+            }
+
+
+    switch(opcionUsuario)
+    {
+        case 'I':
+            switch(opcionComputadora)
+            {
+                case 0:
+                    printf("Empate ");
+                break;
+                case 1:
+                    printf("El ganador es la computadora ");
+                break;
+                case 2:
+                    printf("El ganador es el usuario ");
+                break;
+            }
+        break;
+        case 'T':
+            switch(opcionComputadora)
+            {
+                case 2:
+                    printf("Empate ");
+                break;
+                case 0:
+                    printf("El ganador es la computadora ");
+                break;
+                case 1:
+                    printf("El ganador es el usuario ");
+                break;
+            }
+        break;
+        case 'A':
+            switch(opcionComputadora)
+            {
+                case 1:
+                    printf("Empate ");
+                break;
+                case 2:
+                    printf("El ganador es la computadora ");
+                break;
+                case 0:
+                    printf("El ganador es el usuario ");
+                break;
+            }
+        break;
+    }
+
+}
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main() {
+    char cadena[101];
+
+
+
+    printf("ingrese cadena (max 100) ");
+
+    gets(cadena);
+    printf("la cadena al inicio es = %s \n",cadena);
+    for (int i ; cadena[i]!= 0; i++)
+    {
+        if((cadena[i]>='a' && cadena[i]< 'z') || (cadena[i]>='A' && cadena[i]< 'Z'))
+            cadena[i] = cadena[i] + 1;
+
+        if(cadena[i]== 'z' || cadena[i]== 'Z')
+            cadena[i] = cadena[i]- 25;
+
+
+    }
+     printf("la cadena al final es = %s \n",cadena);
+
+
+}
