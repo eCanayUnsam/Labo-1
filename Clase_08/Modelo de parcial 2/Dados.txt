@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+int main() {
+
+    int numero_generado,caras,cantidad,suma=0;
+
+    srand(time(NULL));
+
+    printf("¿Cuántos dados quieres tirar?\n");
+    scanf("%i",&cantidad);
+
+    printf("¿De cuantas caras son los dados? (1-20)\n");
+    scanf("%i",&caras);
+
+    for(int i=1; i<=cantidad;i++)
+    {
+        numero_generado = rand() % caras + 1;
+        printf("Dado %i = %i\n",i,numero_generado );
+        suma += numero_generado;
+    }
+
+    printf("La suma de los resultados de los dados es: %i",suma);
+
+}

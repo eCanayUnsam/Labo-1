@@ -1,0 +1,86 @@
+#include <stdio.h>
+
+int main() {
+    int cantidad_grupos, total_clientes = 0;
+    char clase;
+    float total_x = 0, total_y = 0, total_z = 0, total_general = 0;
+    float max_importe = 0;
+    char max_clase;
+
+    // Leer cantidad de grupos
+    printf("Ingrese la cantidad de grupos a procesar: ");
+    scanf("%d", &cantidad_grupos);
+
+    // For para la cantidad ingresada de grupos
+    for (int i = 1; i <= cantidad_grupos; i++) {
+        printf("\nGrupo %d - Facturacion:\n", i);
+        int clientes_x = 0, clientes_y = 0, clientes_z = 0;
+        float importe, acumX = 0, acumY = 0, acumZ = 0;
+
+		printf("Ingrese la clase del cliente (X, Y, Z) o F para finalizar: ");
+            scanf(" %c", &clase);
+
+        // Ingreso los clientes hasta recibir la clase 'F'
+        while (clase != 'F') {
+
+            // Leer datos del cliente
+            printf("Ingrese el importe: ");
+            scanf("%f", &importe);
+
+            total_general += importe;
+            total_clientes++;
+
+            // Acumulo nota según clase
+            switch (clase) {
+                case 'X':
+                    acumX += importe;
+                    clientes_x++;
+                    break;
+                case 'Y':
+                    acumY += importe;
+                    clientes_y++;
+                    break;
+                case 'Z':
+                    acumZ += importe;
+                    clientes_z++;
+                    break;
+            }
+            // Leer clase del siguiente cliente
+            printf("Ingrese la clase del cliente (X, Y, Z) o F para finalizar: ");
+            scanf(" %c", &clase);
+        }
+
+        total_x = total_x + acumX;
+        total_y = total_y + acumY;
+        total_z = total_z + acumZ;
+
+        printf("X: %.2f, %d clientes\n", acumX, clientes_x);
+        printf("Y: %.2f, %d clientes\n", acumY, clientes_y);
+        printf("Z: %.2f, %d clientes\n", acumZ, clientes_z);
+
+        // Verificar cual clase es la de mayor importe
+
+        if (total_x > max_importe) {
+            max_importe = total_x;
+            max_clase = 'X';
+        }
+
+        if (total_y > max_importe) {
+            max_importe = total_y;
+            max_clase = 'Y';
+        }
+
+        if (total_z > max_importe) {
+            max_importe = total_z;
+            max_clase = 'Z';
+        }
+    }
+
+    //Imprimo resultados finales
+
+    printf("\nTotal de clientes: %d\n", total_clientes);
+    printf("La clase que facturo mas fue la %c con un importe de %.2f\n", max_clase, max_importe);
+    printf("Total general facturado: %.2f\n", total_general);
+
+    return 0;
+}

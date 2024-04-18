@@ -1,0 +1,62 @@
+Ejercicio 1
+Datos:
+Una institución educativa de nivel primario, con dos grados por año, A y B, necesita un programa que procese notas de alumnos. Para ello, la secretaria se reúne con usted y
+definen los requerimientos.
+
+Requerimiento:
+Construir un programa que permita procesar 7 años (1ero. a 7mo.). Por cada año se tiene
+e ingresan una cantidad desconocida de números de legajos (mayores a 0) de
+alumnos(no se sabe qué cantidad de alumnos hay por grado ya que hay alumnos nuevos
+y otros que pidieron el pase a otra escuela). Finalizan los ingresos de este proceso con
+legajo 0 (cero) y por cada legajo se ingresa:
+
+grado al cual pertenece el alumno, A ó B , tipo caracter, no están ordenados, es
+decir que indistintamente pueden ingresarse tanto A como B
+nota, es un número real, de 1 a 10
+
+Esta función debe emitir, por cada grado el promedio de notas por cada división. Ej.:
+
+....
+(*) Año 1 – promedio general:
+A = 6.89
+B = 7.10
+.....
+(*) Año  2 – promedio general:
+A = 5.90
+B = 9.80
+.....
+
+Al finalizar todos los grados emitir: Total de legajos procesados. El mayor promedio de todos, año y grado (A ó B) que lo obtuvo.
+
+
+Ejercicio 2
+
+Construir un programa que simule el juego "Piedra, papel o tijera". El programa debe pedir al usuario que ingrese un caracter como elección (piedra ('I'), papel ('A') o tijera ('T')) y luego debe generar una elección aleatoria para la computadora. El programa debe emitir la elección del usuario, la elección de la computadora y el resultado por pantalla.
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main() {
+    int opcionComputadora;
+
+    srand(time(NULL)); // Inicializar generador de números aleatorios
+    // Obtener elección aleatoria de la computadora (0 - piedra, 1 - papel, 2 - tijera)
+    opcionComputadora = rand() % 3;
+
+Ejercicio 3
+
+
+Escribir un programa que lea una cadena de caracteres (máximo 100 caracteres)  y le cambie todas las letras por la letra siguiente en el alfabeto (por ejemplo, la letra "b" se cambia por "c", la letra "c" se cambia por "d", etc. en el caso particular la letra "z" se cambia por "a") El programa debe mostrar la cadena resultante por pantalla. (no es necesario tener en cuenta las vocales con tilde)
+
+Ejemplo de entrada:
+"¿Que mira Bobo?"
+
+Ejemplo de salida:
+"¿Rvf njsb Cpcp?"
+
+Ejemplo de entrada:
+"Hola Mundo!!!"
+
+Ejemplo de salida:
+"Ipmb Nvoep!!!"
