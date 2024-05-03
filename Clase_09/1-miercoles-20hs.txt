@@ -1,0 +1,57 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+
+int main() {
+
+    int legajo,legajo_min,nota,total=0,cant_aprobado=0,cant_desaprobados=0;
+
+    float promedio,promedio_min;
+
+   printf("Ingrese el número de legajo, un número entero distinto de 0: ");
+
+   scanf("%d",&legajo);
+
+   while(legajo !=0 )
+   {
+       total++;
+       promedio=0;
+   for (int i=0; i<4;i++)
+   {
+       printf("Ingrese la nota %d:",(i+1));
+       scanf("%d",&nota);
+       promedio +=nota;
+   }
+   promedio /=4.0;
+
+   if(promedio<promedio_min || total==1 )
+   {
+       promedio_min=promedio;
+       legajo_min=legajo;
+   }
+
+   printf("El alumno %d tiene un de promedio %.2f,",legajo,promedio);
+
+   if(promedio>=6)
+   {
+       printf("el alumno está aprobado. \n");
+       cant_aprobado++;
+   }else{
+        printf("el alumno está desaprobado. \n");
+        cant_desaprobados++;
+   }
+
+   printf("Ingrese el número de legajo, un número entero distinto de 0: ");
+
+   scanf("%d",&legajo);
+
+   }
+
+    printf("El Total de alumnos: %d\n" ,total);
+    printf("La cantidad de aprobados: %d\n",cant_aprobado);
+    printf("la cantidad de desaprobados: %d\n",cant_desaprobados);
+
+    printf("El promedio minimo es: %.2f\n" ,promedio_min);
+    printf("El legajo es: %d\n",legajo_min);
+}

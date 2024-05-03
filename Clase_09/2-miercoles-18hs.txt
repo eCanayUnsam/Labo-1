@@ -1,0 +1,29 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main() {
+
+    int resultado,cantidad,acumulador=0;
+
+    srand(time(NULL)); // inicializar el generador de números aleatorios
+
+    printf("¿Cuántos  cubiletes quieres tirar?");
+    scanf("%d",&cantidad);
+
+    for (int j=1;j<=cantidad;j++)
+    {
+        printf("\nCubiletes %d - Dados:",j);
+        for (int i=0; i<6; i++)
+        {
+            resultado = (rand() % 6 ) + 1 ;
+            acumulador += resultado;
+            printf(" %d,",resultado);
+        }
+    }
+
+    printf("\nLa suma total es: %d",acumulador);
+
+return 0;
+}

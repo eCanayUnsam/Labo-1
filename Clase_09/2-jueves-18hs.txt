@@ -1,0 +1,50 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+
+int main() {
+
+    int resultado,apuesta;
+    char respuesta;
+
+    srand(time(NULL)); // inicializar el generador de números aleatorios
+
+
+    printf("¿Cuánto dinero quiere apostar?");
+
+    scanf("%d",&apuesta);
+
+    do{
+
+    resultado = (rand() % 6) + 1; // generar un número aleatorio entre 1 y 10
+
+    printf("\nResultado de su caballo: %d",resultado);
+
+    if(resultado==1)
+    {
+        apuesta *=4;
+        printf("\n¡Usted ganó!! cuadruplica su apuesta");
+    }else{
+        if(resultado==2)
+        {
+            apuesta *=3;
+            printf("\n¡Usted ganó!! triplica su apuesta");
+        }else{
+            if(resultado==3)
+            {
+                apuesta *=2;
+                printf("\n¡Usted ganó!! duplica su apuesta",resultado);
+            }else{
+                apuesta /=2;
+                printf("\nUsted perdió la mitad de su apuesta");
+            }
+            }
+    }
+        printf("\nSu poso acumulado es de %d, ¿Quiere apostar nuevamente? (S/N)\n",apuesta);
+
+        fflush(stdin);
+        scanf("%c",&respuesta);
+
+    }while(respuesta == 'S' || respuesta == 's' );
+}
