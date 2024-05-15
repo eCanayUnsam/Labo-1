@@ -1,3 +1,8 @@
+# Ejemplos
+
+https://www.tinkercad.com/things/lUAgi39BHo7-boton?sharecode=_M5OkTM49_1B9mSoBXZraSlqMCOPNFAOWiJ7RMlmr2A
+
+
 # Ejercicio 1
 Controle una secuencia de 6 LEDs. Un solo LED se encienden en orden secuencial (se enciende el LED 1, despues de un tiempo se apaga y se endience el LED 2, espues de un tiempo se apaga y se endience el LED 3, asi sucesivamente). Dos botones, BOTON1 y BOTON2, permiten ajustar la velocidad: presionar BOTON1 aumenta la velocidad, mientras que presionar BOTON2 la disminuye
 
