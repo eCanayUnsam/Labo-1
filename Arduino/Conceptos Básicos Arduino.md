@@ -40,6 +40,7 @@ int Lectura= analogRead(A0); //Leo el pin A0 y comvierto el valor analogico del 
 https://www.tinkercad.com/things/6A976BkQrEk?sharecode=jfFCzRRrBE0ljsZtNGUFG9WmHK-OzrVrOlP8pvOUNuk
 
 # Tiempos sin delay
+https://www.tinkercad.com/things/kLVQEzf8abZ-tiempos-sin-delay?sharecode=xehFd-9Ac6eV9gXLYMOm971LnugUkx_kDe2OmYNxdHg
 
 # Detector de flanco
 
