@@ -6,6 +6,10 @@ contador binario
 
 https://www.tinkercad.com/things/0FzWV0rtHjZ-copy-of-boton?sharecode=F5b-RUYFAAy2_9oHJwlSRjO8qkVJVpUV0yxfxVWI-aI
 
+Semaforo Maquina de Estados
+
+https://www.tinkercad.com/things/5oAAJGA7fap-semaforo-maquina-de-estados?sharecode=ZkWYUXsCcCfznBP533i1qrvtCTpcg5K1DKuoLdh8JJg
+
 
 # Ejercicio 1
 Controle una secuencia de 6 LEDs. Un solo LED se encienden en orden secuencial (se enciende el LED 1, despues de un tiempo se apaga y se endience el LED 2, espues de un tiempo se apaga y se endience el LED 3, asi sucesivamente). Dos botones, BOTON1 y BOTON2, permiten ajustar la velocidad: presionar BOTON1 aumenta la velocidad, mientras que presionar BOTON2 la disminuye
