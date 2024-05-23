@@ -11,6 +11,11 @@ Semaforo Maquina de Estados
 https://www.tinkercad.com/things/5oAAJGA7fap-semaforo-maquina-de-estados?sharecode=ZkWYUXsCcCfznBP533i1qrvtCTpcg5K1DKuoLdh8JJg
 
 
+Tanque de agua
+
+https://www.tinkercad.com/things/7KwqtkSQz8P-tanque-de-agua?sharecode=4VQsDZlKYKExTw4bElEx-L7PToR18N5sKf8umTwU6JY
+
+
 # Ejercicio 1
 Controle una secuencia de 6 LEDs. Un solo LED se encienden en orden secuencial (se enciende el LED 1, despues de un tiempo se apaga y se endience el LED 2, espues de un tiempo se apaga y se endience el LED 3, asi sucesivamente). Dos botones, BOTON1 y BOTON2, permiten ajustar la velocidad: presionar BOTON1 aumenta la velocidad, mientras que presionar BOTON2 la disminuye
 
