@@ -1,0 +1,65 @@
+#include <stdio.h>
+
+
+int main(){
+    //int N;
+    int numeroActual;
+    int acumulador=0;
+    int maximo,minimo;
+
+    printf("ingrese el numero natural (0 para terminar)\n");
+    scanf("%d",&numeroActual);
+    maximo=numeroActual;
+    minimo=numeroActual;
+    int N=0;
+
+    while (numeroActual!=0)
+    {
+    N++;
+
+    if (numeroActual>maximo)
+        maximo=numeroActual;
+
+    if (numeroActual<minimo)
+        minimo=numeroActual;
+
+    acumulador += numeroActual;
+
+    printf("ingrese el numero natural (0 para terminar)\n");
+    scanf("%d",&numeroActual);
+      //acumulador = acumulador + numeroActual;
+    }
+
+    if (N==0)
+    {
+        printf("no ingreso ningun numero\n");
+    }else{
+        printf("la suma es: %d\n",acumulador);
+        float promedio = float(acumulador)/N;
+        printf("el promedio es: %f\n",promedio);
+        printf("El minimo es: %d\n",minimo);
+        printf("El maximo es: %d\n",maximo);
+   }
+    return 0;
+}
+
+
+/*
+int main(){
+    int N;
+    int numeroActual;
+    int acumulador=0;
+
+    printf("Cuantos numeros naturales quiere?\n");
+    scanf("%d",&N);
+
+    for (int i=1;i<=N;i++)
+    {
+    printf("ingrese el numero %d\n",i);
+    scanf("%d",&numeroActual);
+    acumulador += numeroActual;  //acumulador = acumulador + numeroActual;
+    }
+
+    printf("la suma es: %d\n",acumulador);
+    return 0;
+}*/
