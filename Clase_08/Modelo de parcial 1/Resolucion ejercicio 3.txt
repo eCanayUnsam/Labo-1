@@ -10,8 +10,9 @@ int main() {
     {
         if((cadena[i]>='A' && cadena[i]<='Y') || (cadena[i]>='a' && cadena[i]<='y') )
             cadena[i]++;
-        if(cadena[i]=='z' || cadena[i]=='Z' )
-            cadena[i]-= 25;
+        else
+            if(cadena[i]=='z' || cadena[i]=='Z' )
+                cadena[i]-= 25;
     }
 
     printf("la cadena ingresada): %s",cadena);
