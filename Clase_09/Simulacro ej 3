@@ -1,6 +1,33 @@
 #include <stdio.h>
 
 int main() {
+    char cadena[100];
+    int contador[5]={0,0,0,0,0};
+    char letras[5]={'A','E','I','O','U'};
+    printf("\n Ingrese una cadena de caracteres: ");
+    fgets(cadena,100,stdin);
+    for(int i=0;cadena[i]!='\0';i++)
+    {
+      for (int j=0;j<5;j++)
+      {
+          if(cadena[i]==letras[j] || cadena[i]==(letras[j] + 32))
+            contador[j]++;
+      }
+    }
+    printf("\nLa cadena es %s",cadena);
+    for(int i=0;i<5;i++)
+    {
+        printf("\n%c: %d",letras[i],contador[i]);
+    }
+
+
+return 0;
+}
+
+
+#include <stdio.h>
+
+int main() {
 
     char cadena[100];
     int contadorA=0,contadorE=0,contadorI=0,contadorO=0,contadorU=0;
