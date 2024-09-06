@@ -1,0 +1,65 @@
+#include <stdio.h>
+
+int main() {
+
+    char medida;
+    int cantidad,cantidadDia=0,cantidadTotal=0,diaMenor;
+    float precio,montoDia,montoTotal=0,montoMenor;
+
+    for(int i=1;i<=7;i++)
+    {
+        cantidadDia=0;montoDia=0;
+        printf("\nTamano de la taza de café un cararter (pequena 'P', mediana 'M' o grande 'G')");
+        fflush(stdin);
+        scanf("%c",&medida);
+        fflush(stdin);
+
+        while(medida!='X')
+        {
+
+            printf("Cantidad vendida, un número entero:");
+            fflush(stdin);
+            scanf("%d",&cantidad);
+
+            cantidadDia+=cantidad;
+
+            printf("Precio unitario, un número real:");
+            fflush(stdin);
+            scanf("%f",&precio);
+
+            montoDia+=(precio*cantidad);
+
+           printf("Tamano de la taza de café un cararter (pequena 'P', mediana 'M' o grande 'G')");
+           fflush(stdin);
+           scanf("%c",&medida);
+           fflush(stdin);
+        }
+
+
+         printf("cantidad del dia de tazas de café vendidas: %d - ",cantidadDia);
+         printf("monto del dia: $%.2f",montoDia);
+
+         if(i==1)
+         {
+             montoMenor=montoDia;
+             diaMenor=i;
+         }
+
+         if(montoDia<montoMenor)
+         {
+             montoMenor=montoDia;
+             diaMenor=i;
+         }
+
+         cantidadTotal+=cantidadDia;
+         montoTotal+=montoDia;
+    }
+     printf("\n-------------------------\n");
+    printf("\ncantidad total de tazas de café vendidas: %d - ",cantidadTotal);
+    printf("monto total: $%.2f",montoTotal);
+
+    printf("\nmonto menor total: $%.2f",montoMenor);
+    printf("el dia: %d",diaMenor);
+
+return 0;
+}
